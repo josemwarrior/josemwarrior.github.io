@@ -3,10 +3,10 @@
 392px total cube (7 tiles x 56px)
 
 array [6,6] 
-# - white_block
-. - empty_tile
-o - player
-X - coloured_tile
+2 - white_block
+-1 - empty_tile
+1 - player
+0 - coloured_tile
 
 
 Demo: https://josemwarrior.github.io
