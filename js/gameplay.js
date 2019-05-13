@@ -8,7 +8,7 @@ let Application = PIXI.Application,
 //Define any variables that are used in more than one function
 let spr_player, current_level, spr_bg, spr_white_block,
     state, player_x_array, player_y_array, number_steps,
-    layer_tiles;
+    layer_tiles, spr_orange_block, max_levels;
 //Capture the keyboard arrow keys
 let left = keyboard(37),
     up = keyboard(38),
@@ -21,6 +21,7 @@ const TILE_SIZE = 56;
 const PLAYER = 1;
 const WHITE_BLOCK = 2;
 const ORANGE_BLOCK = 0;
+const EMPTY_BLOCK = -1;
 const WIDTH_STAGE = 640;
 const HEIGHT_STAGE = 1138;
 const ATLAS_NAME = "images/atlas.json";
@@ -58,7 +59,8 @@ loader
 
 function start()
 {
-    current_level = 0;
+    current_level = 1;
+    max_levels = levels.length;
     spr_bg = new Sprite(resources[ATLAS_NAME].textures[TEXTURE_BACKGROUND]);
     spr_bg.x = OFFSET_X_LEVEL;
     spr_bg.y = OFFSET_Y_LEVEL;
@@ -108,10 +110,13 @@ function print_level()
             // Player
             if (levels[current_level][x][y] == PLAYER)
             {
-                spr_player = new Sprite(resources[ATLAS_NAME].textures[TEXTURE_PLAYER]);
+                if (spr_player == undefined)
+                {
+                    spr_player = new Sprite(resources[ATLAS_NAME].textures[TEXTURE_PLAYER]);
+                    app.stage.addChild(spr_player);
+                }
                 spr_player.x = OFFSET_X_LEVEL + (x * TILE_SIZE);
                 spr_player.y = OFFSET_Y_LEVEL + (y * TILE_SIZE);
-                app.stage.addChild(spr_player);
                 player_x_array = x;
                 player_y_array = y;
             }
@@ -124,7 +129,7 @@ function print_level()
 function tint_orange_tile(x, y)
 {
     levels[current_level][x][y] = ORANGE_BLOCK;
-    var spr_orange_block = new Sprite(resources[ATLAS_NAME].textures[TEXTURE_ORANGE_BLOCK]);
+    spr_orange_block = new Sprite(resources[ATLAS_NAME].textures[TEXTURE_ORANGE_BLOCK]);
     spr_orange_block.x = OFFSET_X_LEVEL + (x * TILE_SIZE);
     spr_orange_block.y = OFFSET_Y_LEVEL + (y * TILE_SIZE);
     layer_tiles.addChild(spr_orange_block);
@@ -139,6 +144,73 @@ function gameLoop(delta)
 function play(delta)
 {
     PIXI.tweenManager.update();
+    //check_finished_level();
+}
+
+function check_finished_level()
+{
+    var empty_blocks = 0;
+    for (var x = 0; x < TILES_X; ++x)
+    {
+        for (var y = 0; y < TILES_Y; ++y)
+        {
+            // White block
+            if (levels[current_level][x][y] == EMPTY_BLOCK)
+            {
+                ++empty_blocks;
+            }
+        }
+    }
+    if (empty_blocks == 0)
+    {
+        can_move = false;
+        load_next_level();
+    }
+    else
+    {
+        return false;
+    }
+}
+
+function load_next_level()
+{
+    if (exists_next_level())
+    {
+        ++current_level;
+        can_move = true;
+        layer_tiles.children.forEach(function(element)
+        {
+            element.visible = false;
+        });
+        print_level();
+    }
+}
+
+function exists_next_level()
+{
+    return current_level + 1 < max_levels;
+}
+
+function finished_movement()
+{
+    can_move = true;
+    var timer = {
+        x: 0
+    };
+    var tween_check_completed_level = tween.createTween(timer);
+    tween_check_completed_level.from(
+    {
+        x: 0
+    }).to(
+    {
+        x: 100
+    });
+    tween_check_completed_level.time = 30;
+    tween_check_completed_level.on('end', () =>
+    {
+        check_finished_level();
+    });
+    tween_check_completed_level.start();
 }
 
 function check_move_right()
@@ -165,7 +237,7 @@ function check_move_right()
         tween_player.time = TIME_PER_TILE * number_steps;
         tween_player.on('end', () =>
         {
-            can_move = true;
+            finished_movement();
         });
         tween_player.start();
         if (number_steps == 0) can_move = true;
@@ -196,7 +268,7 @@ function check_move_down()
         tween_player.time = TIME_PER_TILE * number_steps;
         tween_player.on('end', () =>
         {
-            can_move = true;
+            finished_movement();
         });
         tween_player.start();
         if (number_steps == 0) can_move = true;
@@ -227,7 +299,7 @@ function check_move_left()
         tween_player.time = TIME_PER_TILE * number_steps;
         tween_player.on('end', () =>
         {
-            can_move = true;
+            finished_movement();
         });
         tween_player.start();
         if (number_steps == 0) can_move = true;
@@ -258,7 +330,7 @@ function check_move_up()
         tween_player.time = TIME_PER_TILE * number_steps;
         tween_player.on('end', () =>
         {
-            can_move = true;
+            finished_movement();
         });
         tween_player.start();
         if (number_steps == 0) can_move = true;
@@ -272,20 +344,20 @@ function check_tile_colour(current_level, x, y, steps)
         var timer = {
             x: 0
         };
-        var tween_player = tween.createTween(timer);
-        tween_player.from(
+        var tween_colour = tween.createTween(timer);
+        tween_colour.from(
         {
             x: 0
         }).to(
         {
             x: 100
         });
-        tween_player.time = TIME_PER_TILE * steps;
-        tween_player.on('end', () =>
+        tween_colour.time = TIME_PER_TILE * steps;
+        tween_colour.on('end', () =>
         {
             tint_orange_tile(x, y)
         });
-        tween_player.start();
+        tween_colour.start();
     }
 }
 
