@@ -52,7 +52,9 @@ let style = new PIXI.TextStyle(
 let app = new Application(
 {
     width: WIDTH_STAGE,
-    height: HEIGHT_STAGE
+    height: HEIGHT_STAGE,
+    antialias: true,
+    resolution: 2
 });
 document.body.appendChild(app.view);
 app.renderer.autoResize = true;
