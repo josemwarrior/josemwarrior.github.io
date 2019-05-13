@@ -3,18 +3,8 @@ let Application = PIXI.Application,
     loader = PIXI.loader,
     resources = PIXI.loader.resources,
     Sprite = PIXI.Sprite,
-    tween = PIXI.tweenManager;
-
-//Define any variables that are used in more than one function
-let spr_player, current_level, spr_bg, spr_white_block,
-    state, player_x_array, player_y_array, number_steps,
-    layer_tiles, spr_orange_block, max_levels;
-//Capture the keyboard arrow keys
-let left = keyboard(37),
-    up = keyboard(38),
-    right = keyboard(39),
-    down = keyboard(40);
-let can_move = true;
+    tween = PIXI.tweenManager,
+    Text = PIXI.Text;
 
 const BACKGROUND_COLOR = 0x0096FE;
 const TILE_SIZE = 56;
@@ -29,11 +19,34 @@ const TEXTURE_WHITE_BLOCK = "white_block.png";
 const TEXTURE_ORANGE_BLOCK = "orange_block.png";
 const TEXTURE_BACKGROUND = "bg.png";
 const TEXTURE_PLAYER = "player.png";
+const TEXTURE_LABEL = "label_text.png";
 const OFFSET_X_LEVEL = 125;
 const OFFSET_Y_LEVEL = 373;
 const TILES_X = 7;
 const TILES_Y = 7;
 const TIME_PER_TILE = 20;
+const SPR_TEXT_LABEL_X = 198;
+const SPR_TEXT_LABEL_Y = 66;
+const SPR_TEXT_Y = 72;
+const TAG_LEVEL = 'LEVEL ';
+
+//Define any variables that are used in more than one function
+let spr_player, current_level, spr_bg, spr_white_block,
+    state, player_x_array, player_y_array, number_steps,
+    layer_tiles, spr_orange_block, max_levels, spr_label_text,
+    level_name;
+//Capture the keyboard arrow keys
+let left = keyboard(37),
+    up = keyboard(38),
+    right = keyboard(39),
+    down = keyboard(40);
+let can_move = true;
+let style = new PIXI.TextStyle(
+{
+    fontFamily: "Baloo Bhai",
+    fontSize: 38,
+    fill: "white"
+});
 
 //Create a Pixi Application
 let app = new Application(
@@ -65,6 +78,14 @@ function start()
     spr_bg.x = OFFSET_X_LEVEL - TILE_SIZE;
     spr_bg.y = OFFSET_Y_LEVEL - TILE_SIZE;
     app.stage.addChild(spr_bg);
+    spr_label_text = new Sprite(resources[ATLAS_NAME].textures[TEXTURE_LABEL]);
+    spr_label_text.x = SPR_TEXT_LABEL_X;
+    spr_label_text.y = SPR_TEXT_LABEL_Y;
+    app.stage.addChild(spr_label_text);
+    level_name = new Text(TAG_LEVEL + current_level, style);
+    app.stage.addChild(level_name);
+    level_name.position.set(WIDTH_STAGE / 2 - level_name.width / 2, SPR_TEXT_Y);
+
     // Layer color tiles
     layer_tiles = new PIXI.Container();
     app.stage.addChild(layer_tiles);
@@ -95,6 +116,8 @@ function start()
 
 function print_level()
 {
+    level_name.text = TAG_LEVEL + current_level;
+    level_name.position.set(WIDTH_STAGE / 2 - level_name.width / 2, SPR_TEXT_Y);
     for (var x = 0; x < TILES_X; ++x)
     {
         for (var y = 0; y < TILES_Y; ++y)
