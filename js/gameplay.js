@@ -29,6 +29,7 @@ const SPR_TEXT_LABEL_X = 198;
 const SPR_TEXT_LABEL_Y = 66;
 const SPR_TEXT_Y = 72;
 const TAG_LEVEL = 'LEVEL ';
+const VELOCITY_GESTURE = 0.15;
 
 //Define any variables that are used in more than one function
 let spr_player, current_level, spr_bg, spr_white_block,
@@ -437,20 +438,21 @@ mc.get('pan').set(
 // listen to events...
 mc.on("panleft panright panup pandown tap press", function(ev)
 {
+    console.log(ev.velocity);
     //console.log(ev.type +" gesture detected.");
-    if (ev.type == "panright")
+    if (ev.type == "panright" && ev.velocity > VELOCITY_GESTURE)
     {
         check_move_right();
     }
-    if (ev.type == "panleft")
+    if (ev.type == "panleft" && ev.velocity < -VELOCITY_GESTURE)
     {
         check_move_left();
     }
-    if (ev.type == "panup")
+    if (ev.type == "panup" && ev.velocity < -VELOCITY_GESTURE)
     {
         check_move_up();
     }
-    if (ev.type == "pandown")
+    if (ev.type == "pandown" && ev.velocity > VELOCITY_GESTURE)
     {
         check_move_down();
     }
