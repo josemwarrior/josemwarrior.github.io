@@ -2,17 +2,45 @@
 let Application = PIXI.Application,
     loader = PIXI.loader,
     resources = PIXI.loader.resources,
-    Sprite = PIXI.Sprite;
+    Sprite = PIXI.Sprite,
+    tween = PIXI.tweenManager;
+
+//Define any variables that are used in more than one function
+let spr_player, current_level, spr_bg, spr_white_block, 
+state, player_x_array, player_y_array, number_steps;
+//Capture the keyboard arrow keys
+let left = keyboard(37),
+    up = keyboard(38),
+    right = keyboard(39),
+    down = keyboard(40);
+let can_move = true;
+
+const BACKGROUND_COLOR = 0x0096FE;
+const TILE_SIZE = 56;
+const PLAYER = 1;
+const WHITE_BLOCK = 2;
+const WIDTH_STAGE = 640;
+const HEIGHT_STAGE = 1138;
+const ATLAS_NAME = "images/atlas.json";
+const TEXTURE_WHITE_BLOCK = "white_block.png";
+const TEXTURE_BACKGROUND = "bg.png";
+const TEXTURE_PLAYER = "player.png";
+const OFFSET_X_LEVEL = 125;
+const OFFSET_Y_LEVEL = 373;
+const TILES_X = 7;
+const TILES_Y = 7;
+const TIME_PER_TILE = 20;
+
 
 //Create a Pixi Application
 let app = new Application(
 {
-    width: 640,
-    height: 1138
+    width: WIDTH_STAGE,
+    height: HEIGHT_STAGE
 });
 document.body.appendChild(app.view);
 app.renderer.autoResize = true;
-app.renderer.backgroundColor = 0x0096FE;
+app.renderer.backgroundColor = BACKGROUND_COLOR;
 app.renderer.view.style.position = "absolute";
 app.renderer.view.style.display = "block";
 var scale = scaleToWindow(app.renderer.view);
@@ -20,72 +48,63 @@ window.addEventListener("resize", function(event)
 {
     scale = scaleToWindow(app.renderer.view);
 });
-//Define any variables that are used in more than one function
-let levels, player, current_level, spr_bg, white_block, start_x_position, start_y_position, state;
-//Capture the keyboard arrow keys
-let left = keyboard(37),
-    up = keyboard(38),
-    right = keyboard(39),
-    down = keyboard(40);
-let tile_size = 56;
-let can_move = true;
+
 //Load sprites
 loader
-    .add("images/atlas.json")
+    .add(ATLAS_NAME)
     .load(setup);
 
 function setup()
 {
-    levels = [
-        [
-            [2, 2, 2, 2, 2, 2, 2],
-            [2, 1, -1, -1, -1, -1, 2],
-            [2, -1, -1, -1, -1, -1, 2],
-            [2, -1, -1, -1, -1, -1, 2],
-            [2, -1, -1, -1, -1, -1, 2],
-            [2, -1, -1, -1, -1, -1, 2],
-            [2, 2, 2, 2, 2, 2, 2]
-        ]
-    ];
     current_level = 0;
-    spr_bg = new Sprite(resources["images/atlas.json"].textures["bg.png"]);
-    spr_bg.x = 125;
-    spr_bg.y = 373;
+    spr_bg = new Sprite(resources[ATLAS_NAME].textures[TEXTURE_BACKGROUND]);
+    spr_bg.x = OFFSET_X_LEVEL;
+    spr_bg.y = OFFSET_Y_LEVEL;
     app.stage.addChild(spr_bg);
-    // Paint level
-    start_x_position = 125;
-    start_y_position = 373;
-    for (var x = 0; x < 7; ++x)
+    for (var x = 0; x < TILES_X; ++x)
     {
-        for (var y = 0; y < 7; ++y)
+        for (var y = 0; y < TILES_Y; ++y)
         {
             // White block
-            if (levels[current_level][x][y] == 2)
+            if (levels[current_level][x][y] == WHITE_BLOCK)
             {
-                white_block = new Sprite(resources["images/atlas.json"].textures["white_block.png"]);
-                white_block.x = start_x_position + (x * tile_size);
-                white_block.y = start_y_position + (y * tile_size);
-                app.stage.addChild(white_block);
+                spr_white_block = new Sprite(resources[ATLAS_NAME].textures[TEXTURE_WHITE_BLOCK]);
+                spr_white_block.x = OFFSET_X_LEVEL + (x * TILE_SIZE);
+                spr_white_block.y = OFFSET_Y_LEVEL + (y * TILE_SIZE);
+                app.stage.addChild(spr_white_block);
             }
             // Player
-            if (levels[current_level][x][y] == 1)
+            if (levels[current_level][x][y] == PLAYER)
             {
-                player = new Sprite(resources["images/atlas.json"].textures["player.png"]);
-                player.x = start_x_position + (x * tile_size);
-                player.y = start_y_position + (y * tile_size);
-                app.stage.addChild(player);
+                spr_player = new Sprite(resources[ATLAS_NAME].textures[TEXTURE_PLAYER]);
+                spr_player.x = OFFSET_X_LEVEL + (x * TILE_SIZE);
+                spr_player.y = OFFSET_Y_LEVEL + (y * TILE_SIZE);
+                app.stage.addChild(spr_player);
+                player_x_array = x;
+                player_y_array = y;
             }
         }
     }
     //Set the game state
     state = play;
 
-    //Right arrow key `press` method
+    //arrow key `press` method
     right.press = () =>
     {
         check_move_right();
     };
-
+    left.press = () =>
+    {
+        check_move_left();
+    };
+    up.press = () =>
+    {
+        check_move_up();
+    };
+    down.press = () =>
+    {
+        check_move_down();
+    };
     //Start the game loop by adding the `gameLoop` function to
     //Pixi's `ticker` and providing it with a `delta` argument.
     app.ticker.add(delta => gameLoop(delta));
@@ -101,14 +120,90 @@ function gameLoop(delta)
 
 function play(delta)
 {
-    //player.x += 1;
+    PIXI.tweenManager.update();
 }
 
 function check_move_right()
 {
     if (can_move)
     {
-        //player.x = player.x + tile_size;
+        can_move = false;
+        number_steps = 0;
+        while(++player_x_array<TILES_X && levels[current_level][player_x_array][player_y_array]!=WHITE_BLOCK)
+        {
+            number_steps++;
+        }
+        --player_x_array;
+        var x_end = number_steps * TILE_SIZE;
+        var tween_player = tween.createTween(spr_player);
+        tween_player.from({ x: spr_player.x }).to({ x: spr_player.x + x_end });
+        tween_player.time = TIME_PER_TILE * number_steps;
+        tween_player.on('end', () => { can_move = true; });
+        tween_player.start();
+        if (number_steps==0) can_move = true;
+    }
+}
+
+function check_move_down()
+{
+    if (can_move)
+    {
+        can_move = false;
+        number_steps = 0;
+        while(++player_y_array<TILES_Y && levels[current_level][player_x_array][player_y_array]!=WHITE_BLOCK)
+        {
+            number_steps++;
+        }
+        --player_y_array;
+        var y_end = number_steps * TILE_SIZE;
+        var tween_player = tween.createTween(spr_player);
+        tween_player.from({ y: spr_player.y }).to({ y: spr_player.y + y_end });
+        tween_player.time = TIME_PER_TILE * number_steps;
+        tween_player.on('end', () => { can_move = true; });
+        tween_player.start();
+        if (number_steps==0) can_move = true;
+    }
+}
+
+function check_move_left()
+{
+    if (can_move)
+    {
+        can_move = false;
+        number_steps = 0;
+        while(--player_x_array>=0&&levels[current_level][player_x_array][player_y_array]!=WHITE_BLOCK)
+        {
+            number_steps++;
+        }
+        ++player_x_array;
+        var x_end = number_steps * TILE_SIZE;
+        var tween_player = tween.createTween(spr_player);
+        tween_player.from({ x: spr_player.x }).to({ x: spr_player.x - x_end });
+        tween_player.time = TIME_PER_TILE * number_steps;
+        tween_player.on('end', () => { can_move = true; });
+        tween_player.start();
+        if (number_steps==0) can_move = true;
+    }
+}
+
+function check_move_up()
+{
+    if (can_move)
+    {
+        can_move = false;
+        number_steps = 0;
+        while(--player_y_array<TILES_Y && levels[current_level][player_x_array][player_y_array]!=WHITE_BLOCK)
+        {
+            number_steps++;
+        }
+        ++player_y_array;
+        var y_end = number_steps * TILE_SIZE;
+        var tween_player = tween.createTween(spr_player);
+        tween_player.from({ y: spr_player.y }).to({ y: spr_player.y - y_end });
+        tween_player.time = TIME_PER_TILE * number_steps;
+        tween_player.on('end', () => { can_move = true; });
+        tween_player.start();
+        if (number_steps==0) can_move = true;
     }
 }
 
