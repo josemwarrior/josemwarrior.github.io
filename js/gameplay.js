@@ -15,6 +15,8 @@ let left = keyboard(37),
     down = keyboard(40);
 let can_move = true;
 
+
+
 const BACKGROUND_COLOR = 0x0096FE;
 const TILE_SIZE = 56;
 const PLAYER = 1;
@@ -247,3 +249,30 @@ function keyboard(keyCode)
     );
     return key;
 }
+
+// Touch gestures
+let mc = new Hammer(app.view);
+mc.get('pan').set({ direction: Hammer.DIRECTION_ALL });
+
+// listen to events...
+mc.on("panleft panright panup pandown tap press", function(ev) {
+    //console.log(ev.type +" gesture detected.");
+    if (ev.type == "panright")
+    {
+        check_move_right();
+    }
+    if (ev.type == "panleft")
+    {
+        check_move_left();
+    }
+    if (ev.type == "panup")
+    {
+        check_move_up();
+    }
+    if (ev.type == "pandown")
+    {
+        check_move_down();
+    }
+});
+
+
