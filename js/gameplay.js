@@ -64,7 +64,7 @@ window.addEventListener("resize", function(event)
 {
     scale = scaleToWindow(app.renderer.view);
 });
-
+PIXI.SCALE_MODES.DEFAULT = PIXI.SCALE_MODES.NEAREST;
 //Load sprites
 loader
     .add(ATLAS_NAME)
