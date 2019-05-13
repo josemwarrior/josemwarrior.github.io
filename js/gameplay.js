@@ -62,8 +62,8 @@ function start()
     current_level = 1;
     max_levels = levels.length;
     spr_bg = new Sprite(resources[ATLAS_NAME].textures[TEXTURE_BACKGROUND]);
-    spr_bg.x = OFFSET_X_LEVEL;
-    spr_bg.y = OFFSET_Y_LEVEL;
+    spr_bg.x = OFFSET_X_LEVEL - TILE_SIZE;
+    spr_bg.y = OFFSET_Y_LEVEL - TILE_SIZE;
     app.stage.addChild(spr_bg);
     // Layer color tiles
     layer_tiles = new PIXI.Container();
@@ -312,7 +312,7 @@ function check_move_up()
     {
         can_move = false;
         number_steps = 0;
-        while (--player_y_array < TILES_Y && levels[current_level][player_x_array][player_y_array] != WHITE_BLOCK)
+        while (--player_y_array >= 0 && levels[current_level][player_x_array][player_y_array] != WHITE_BLOCK)
         {
             number_steps++;
             check_tile_colour(current_level, player_x_array, player_y_array, number_steps);
