@@ -29,7 +29,7 @@ const SPR_TEXT_LABEL_X = 198;
 const SPR_TEXT_LABEL_Y = 66;
 const SPR_TEXT_Y = 72;
 const TAG_LEVEL = 'LEVEL ';
-const VELOCITY_GESTURE = 0.15;
+const VELOCITY_GESTURE = 0.2;
 
 //Define any variables that are used in more than one function
 let spr_player, current_level, spr_bg, spr_white_block,
