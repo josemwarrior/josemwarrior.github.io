@@ -44,6 +44,8 @@ let left = keyboard(37),
     right = keyboard(39),
     down = keyboard(40);
 let can_move = true;
+
+//Font
 let style = new PIXI.TextStyle(
 {
     fontFamily: "Baloo Bhai",
