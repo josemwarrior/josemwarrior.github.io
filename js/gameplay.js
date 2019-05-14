@@ -29,7 +29,14 @@ const SPR_TEXT_LABEL_X = 198;
 const SPR_TEXT_LABEL_Y = 66;
 const SPR_TEXT_Y = 72;
 const TAG_LEVEL = 'LEVEL ';
-const VELOCITY_GESTURE = 0.2;
+const VELOCITY_GESTURE = 0.1;
+const RECOVER_TIME = 20;
+//Sounds
+var snd_tint = new Howl(
+{
+    src: ['sounds/tint.wav', 'sound.mp3']
+});
+
 
 //Define any variables that are used in more than one function
 let spr_player, current_level, spr_bg, spr_white_block,
@@ -219,7 +226,6 @@ function exists_next_level()
 
 function finished_movement()
 {
-    can_move = true;
     var timer = {
         x: 0
     };
@@ -231,9 +237,10 @@ function finished_movement()
     {
         x: 100
     });
-    tween_check_completed_level.time = 30;
+    tween_check_completed_level.time = RECOVER_TIME;
     tween_check_completed_level.on('end', () =>
     {
+        can_move = true;
         check_finished_level();
     });
     tween_check_completed_level.start();
@@ -243,6 +250,7 @@ function check_move_right()
 {
     if (can_move)
     {
+        snd_tint.play();
         can_move = false;
         number_steps = 0;
         while (++player_x_array < TILES_X && levels[current_level][player_x_array][player_y_array] != WHITE_BLOCK)
@@ -274,6 +282,7 @@ function check_move_down()
 {
     if (can_move)
     {
+        snd_tint.play();
         can_move = false;
         number_steps = 0;
         while (++player_y_array < TILES_Y && levels[current_level][player_x_array][player_y_array] != WHITE_BLOCK)
@@ -305,6 +314,7 @@ function check_move_left()
 {
     if (can_move)
     {
+        snd_tint.play();
         can_move = false;
         number_steps = 0;
         while (--player_x_array >= 0 && levels[current_level][player_x_array][player_y_array] != WHITE_BLOCK)
@@ -336,6 +346,7 @@ function check_move_up()
 {
     if (can_move)
     {
+        snd_tint.play();
         can_move = false;
         number_steps = 0;
         while (--player_y_array >= 0 && levels[current_level][player_x_array][player_y_array] != WHITE_BLOCK)
