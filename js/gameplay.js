@@ -31,12 +31,6 @@ const SPR_TEXT_Y = 72;
 const TAG_LEVEL = 'LEVEL ';
 const VELOCITY_GESTURE = 0.1;
 const RECOVER_TIME = 20;
-//Sounds
-var snd_tint = new Howl(
-{
-    src: ['sounds/tint.wav', 'sound.mp3']
-});
-
 
 //Define any variables that are used in more than one function
 let spr_player, current_level, spr_bg, spr_white_block,
@@ -44,6 +38,7 @@ let spr_player, current_level, spr_bg, spr_white_block,
     layer_tiles, spr_orange_block, max_levels, spr_label_text,
     level_name;
 //Capture the keyboard arrow keys
+snd_can_play = true;
 let left = keyboard(37),
     up = keyboard(38),
     right = keyboard(39),
@@ -54,6 +49,13 @@ let style = new PIXI.TextStyle(
     fontFamily: "Baloo Bhai",
     fontSize: 38,
     fill: "white"
+});
+
+//Sounds
+let snd_tint = new Howl(
+{
+    src: ['sounds/tint.wav', 'sound.mp3'],
+    loop: false
 });
 
 //Create a Pixi Application
@@ -250,7 +252,6 @@ function check_move_right()
 {
     if (can_move)
     {
-        snd_tint.play();
         can_move = false;
         number_steps = 0;
         while (++player_x_array < TILES_X && levels[current_level][player_x_array][player_y_array] != WHITE_BLOCK)
@@ -259,21 +260,25 @@ function check_move_right()
             check_tile_colour(current_level, player_x_array, player_y_array, number_steps);
         }
         --player_x_array;
-        var x_end = number_steps * TILE_SIZE;
-        var tween_player = tween.createTween(spr_player);
-        tween_player.from(
+        if (number_steps != 0)
         {
-            x: spr_player.x
-        }).to(
-        {
-            x: spr_player.x + x_end
-        });
-        tween_player.time = TIME_PER_TILE * number_steps;
-        tween_player.on('end', () =>
-        {
-            finished_movement();
-        });
-        tween_player.start();
+            snd_tint.play();
+            var x_end = number_steps * TILE_SIZE;
+            var tween_player = tween.createTween(spr_player);
+            tween_player.from(
+            {
+                x: spr_player.x
+            }).to(
+            {
+                x: spr_player.x + x_end
+            });
+            tween_player.time = TIME_PER_TILE * number_steps;
+            tween_player.on('end', () =>
+            {
+                finished_movement();
+            });
+            tween_player.start();
+        }
         if (number_steps == 0) can_move = true;
     }
 }
@@ -282,7 +287,6 @@ function check_move_down()
 {
     if (can_move)
     {
-        snd_tint.play();
         can_move = false;
         number_steps = 0;
         while (++player_y_array < TILES_Y && levels[current_level][player_x_array][player_y_array] != WHITE_BLOCK)
@@ -291,21 +295,25 @@ function check_move_down()
             check_tile_colour(current_level, player_x_array, player_y_array, number_steps);
         }
         --player_y_array;
-        var y_end = number_steps * TILE_SIZE;
-        var tween_player = tween.createTween(spr_player);
-        tween_player.from(
+        if (number_steps != 0)
         {
-            y: spr_player.y
-        }).to(
-        {
-            y: spr_player.y + y_end
-        });
-        tween_player.time = TIME_PER_TILE * number_steps;
-        tween_player.on('end', () =>
-        {
-            finished_movement();
-        });
-        tween_player.start();
+            snd_tint.play();
+            var y_end = number_steps * TILE_SIZE;
+            var tween_player = tween.createTween(spr_player);
+            tween_player.from(
+            {
+                y: spr_player.y
+            }).to(
+            {
+                y: spr_player.y + y_end
+            });
+            tween_player.time = TIME_PER_TILE * number_steps;
+            tween_player.on('end', () =>
+            {
+                finished_movement();
+            });
+            tween_player.start();
+        }
         if (number_steps == 0) can_move = true;
     }
 }
@@ -314,7 +322,6 @@ function check_move_left()
 {
     if (can_move)
     {
-        snd_tint.play();
         can_move = false;
         number_steps = 0;
         while (--player_x_array >= 0 && levels[current_level][player_x_array][player_y_array] != WHITE_BLOCK)
@@ -323,21 +330,25 @@ function check_move_left()
             check_tile_colour(current_level, player_x_array, player_y_array, number_steps);
         }
         ++player_x_array;
-        var x_end = number_steps * TILE_SIZE;
-        var tween_player = tween.createTween(spr_player);
-        tween_player.from(
+        if (number_steps != 0)
         {
-            x: spr_player.x
-        }).to(
-        {
-            x: spr_player.x - x_end
-        });
-        tween_player.time = TIME_PER_TILE * number_steps;
-        tween_player.on('end', () =>
-        {
-            finished_movement();
-        });
-        tween_player.start();
+            snd_tint.play();
+            var x_end = number_steps * TILE_SIZE;
+            var tween_player = tween.createTween(spr_player);
+            tween_player.from(
+            {
+                x: spr_player.x
+            }).to(
+            {
+                x: spr_player.x - x_end
+            });
+            tween_player.time = TIME_PER_TILE * number_steps;
+            tween_player.on('end', () =>
+            {
+                finished_movement();
+            });
+            tween_player.start();
+        }
         if (number_steps == 0) can_move = true;
     }
 }
@@ -346,7 +357,6 @@ function check_move_up()
 {
     if (can_move)
     {
-        snd_tint.play();
         can_move = false;
         number_steps = 0;
         while (--player_y_array >= 0 && levels[current_level][player_x_array][player_y_array] != WHITE_BLOCK)
@@ -355,21 +365,25 @@ function check_move_up()
             check_tile_colour(current_level, player_x_array, player_y_array, number_steps);
         }
         ++player_y_array;
-        var y_end = number_steps * TILE_SIZE;
-        var tween_player = tween.createTween(spr_player);
-        tween_player.from(
+        if (number_steps != 0)
         {
-            y: spr_player.y
-        }).to(
-        {
-            y: spr_player.y - y_end
-        });
-        tween_player.time = TIME_PER_TILE * number_steps;
-        tween_player.on('end', () =>
-        {
-            finished_movement();
-        });
-        tween_player.start();
+            snd_tint.play();
+            var y_end = number_steps * TILE_SIZE;
+            var tween_player = tween.createTween(spr_player);
+            tween_player.from(
+            {
+                y: spr_player.y
+            }).to(
+            {
+                y: spr_player.y - y_end
+            });
+            tween_player.time = TIME_PER_TILE * number_steps;
+            tween_player.on('end', () =>
+            {
+                finished_movement();
+            });
+            tween_player.start();
+        }
         if (number_steps == 0) can_move = true;
     }
 }
