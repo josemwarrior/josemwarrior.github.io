@@ -54,7 +54,12 @@ let style = new PIXI.TextStyle(
 //Sounds
 let snd_tint = new Howl(
 {
-    src: ['sounds/tint.wav', 'sound.mp3'],
+    src: ['sounds/tint.wav', 'tint'],
+    loop: false
+});
+let snd_win = new Howl(
+{
+    src: ['sounds/win.wav', 'win'],
     loop: false
 });
 
@@ -199,6 +204,7 @@ function check_finished_level()
     if (empty_blocks == 0)
     {
         can_move = false;
+        snd_win.play();
         load_next_level();
     }
     else
