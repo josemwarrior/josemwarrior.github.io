@@ -1,5 +1,5 @@
-title: no style, please! # name of the site
-author: Riccardo Graziosi # name of site's author
+title: My Untold Journal # name of the site
+author: josemwarrior # name of site's author
 email: riccardo.graziosi97@gmail.com # email of site's author
 url: https://riggraz.dev # root address of the site
 baseurl: "/" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
@@ -18,7 +18,7 @@ theme_config:
   back_home_text: ".." # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
   show_description: false # show blog description in home page
-  lowercase_titles: true # show titles in lowercase in lists
+  lowercase_titles: false # show titles in lowercase in lists
 
 sass:
   style: compressed
