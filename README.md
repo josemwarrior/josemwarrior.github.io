@@ -1,4 +1,11 @@
-# no style, please!
+# My untold journal
+
+Este es mi blog personal. 
+
+Para testear en local:
+
+    $ bundle exec jekyll serve
+
 
 [![Gem Version](https://badge.fury.io/rb/no-style-please.svg)](https://badge.fury.io/rb/no-style-please)
 
@@ -37,9 +44,7 @@ And add this line to your Jekyll site's `_config.yml`:
 theme: no-style-please
 ```
 
-And then execute:
 
-    $ bundle
 
 Or install it yourself as:
 

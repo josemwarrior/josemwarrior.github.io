@@ -1,414 +1,1656 @@
 ---
 layout: post
-title: "Devlog de Guxt: ¿Cuanto se tarda en hacer un videojuego indie?"
+title: "Devlog de Guxt"
 date: 2016-01-08 21:50:34
 tags: []
 ---
+Traducción al castellano del [devlog de Guxt](https://www.cavestory.one/downloads/ps-Guxt.zip) de [Pixel](https://en.wikipedia.org/wiki/Daisuke_Amaya). 
 
-Es una pregunta que esta bien hacerse, sobretodo antes de embarcar un nuevo proyecto. Si queremos hacer un videojuego, estamos nosotros solos, y nunca, repito, nunca hemos terminado y publicado alguno, es común, no ponerse una meta realizable, o pensar en un proyecto inviable que no llegara a realizarse. Esto es, querer gráficos en 3D, una infinidad de magias (que ni siquiera están diseñadas sobre papel, solo en nuestra cabeza), modo online de juego, etc. Pensar en hacer un videojuego más simple, nos parece una idea ridícula, "hombre, yo quiero hacer algo a lo que me guste jugar", esta frase es suficiente para justificar tamaña gesta. 
+<audio controls>
+  <source src="{{ '/assets/audio/guxt-theme.mp3' | relative_url }}" type="audio/mpeg">
+  Tu navegador no soporta el elemento de audio.
+</audio>
 
-Un ejercicio bastante sano para ponernos los pies en la tierra, es ver el trabajo que han hecho otros y el tiempo que les ha llevado a hacerlo. Aunque si estamos nublados por nuestro ego, podemos caer en el error de pensar que *"nosotros si tenemos el talento para hacerlo"*, o *"si sabemos lo que hay que hacer y no como los demás"*.
+<p></p>
 
-Al margen de todo esto, hoy traigo el devlog (diario de desarrollo) del videojuego **Guxt** creado por Pixel (desarrollador indie japones mas conocido por [Cavestory](https://es.wikipedia.org/wiki/Cave_Story)), cuyo desarrollo comprende los años de 2005 a 2007 (dos añitos). 
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
 
-Esto es solo un paseo, por el desarrollo de un juego, cabe destacar que lo mas probable es que no le dedicara una jornada a tiempo completo a este desarrollo, esto es solo para ver, un claro ejemplo de que el desarrollo de un juego pequeño puede tardar años. Ya sabemos que [hay juegos que se terminan en un fin de semana](https://ludumdare.com). 
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051014.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
 
-Recomiendo no saltarse ninguna frase, y hacer especial hincapié en observar la diferencia de días entre una anotación y otra.
+  <div style="flex: 1;">
+    <h4>14 Octubre, 2005</h4>
 
-Estas fueron las notas originalmente en japones que fue anotando su desarrollador, traducidas al castellano. Que la disfrutéis!
+    <p>
+      <i>
+      "Pensé que si hacia la pantalla de juego más pequeña, podría completar el juego antes, dado que tendría que dibujar menor cantidad de pixeles."
+      </i>
+    </p>
+  </div>
 
-Advertencia: spoilers inside!
+</div>
 
---------
-![](https://i.ibb.co/27SB7rmV/04d7d70cf74c.jpg)
 
-14 Octubre, 2005
-*"Pensé que si hacia la pantalla de juego más pequeña, podría completar el juego antes, dado que tendría que dibujar menor cantidad de pixeles."*
 
---------
-![](https://i.imgur.com/mh4DixG.png)
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
 
-16 Octubre, 2005
-*"Era capaz de disparar. Esta es probablemente la parte más divertida del proyecto."*
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051016.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
 
---------
-![](https://i.imgur.com/0au9Uqg.png)
+  <div style="flex: 1;">
+    <h4>16 Octubre, 2005</h4>
 
-8 Noviembre, 2005
-*"Terminado el editor de mapas y programado la visualización del mapa. Me quedé asombrado conmigo mismo a pesar de que es obvio que un mapa se muestre correctamente."*
+    <p>
+      <i>
+      "Ya se pueden disparar balas. Puede que esta sea la etapa más divertida de hacer un juego..."
+      </i>
+    </p>
+  </div>
 
---------
-![](https://i.imgur.com/3ZbqmCx.png)
+</div>
 
-16 Noviembre, 2005
-*"Hecho un sprite de un enemigo (que no hace nada) que esta fijos en la pantalla."*
 
---------
-![](https://i.imgur.com/qSTDTJl.png)
 
-17 Noviembre, 2005
-*"Poder derribar al enemigo con un proyectil. La animación de la explosion era simple."*
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
 
---------
-![](https://i.imgur.com/xpSGQKb.png)
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051108.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
 
-18 Noviembre, 2005 
-*"Era capaz de incluir un mensaje de la pantalla de una sola línea en el centro de la pantalla. Carece de versatilidad ... es en esta etapa en la que se decidió una fuente específica."*
+  <div style="flex: 1;">
+    <h4>8 Noviembre, 2005</h4>
 
---------
-![](https://i.imgur.com/tF1Eese.png)
+    <p>
+      <i>
+      "Creo el editor de mapas e integro la visualización del mapa. Es algo que debería funcionar sin más, pero me quedo solo con la boca abierta: '¡Uau!'"
+      </i>
+    </p>
+  </div>
 
-20 Noviembre, 2005
-*"Incluido la puntuación en la parte superior izquierda, y los FPS en la parte superior derecha."*
+</div>
 
---------
-![](https://i.imgur.com/7JC91UF.png)
 
-23 Noviembre, 2005
-*"Era capaz de mostrar nubes aleatoriamente. La animación del rastro de nubes de la nave se incluyó para darle una sensación de ritmo rápido. La combinación de colores se asemeja a la Game Boy."*
 
---------
-![](https://i.imgur.com/NaZMBGn.png)
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
 
-24 Noviembre, 2005
-*"Era capaz de hacer aparecer un enemigo girador. Del tipo que aparece en el comienzo del juego final."*
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051116.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
 
---------
-![](https://i.imgur.com/Jp0UZcf.png)
+  <div style="flex: 1;">
+    <h4>16 Noviembre, 2005</h4>
 
-25 Noviembre, 2005
-*"Se ha cambiado el fondo para mantener el equilibrio visual. El juego fue planeado sólo para tener dos colores, asi que ya no hay vuelta atras llegados a este nivel... ""*
+    <p>
+      <i>
+      "Pruebo a crear un enemigo (que no hace nada). Al contrario que el jugador, que está pegado a la pantalla, este tipo está anclado al mapa."
+      </i>
+    </p>
+  </div>
 
---------
-![](https://i.imgur.com/RjyH2WA.png)
+</div>
 
-26 Noviembre, 2005
-*"Ahora se puede mostrar el mensaje de 'Game Over'. Esto es, que la derrota del jugador esta programada en el juego."*
 
---------
-![](https://i.imgur.com/UOQwYxp.png)
 
-27 Noviembre, 2005 
-*"Hecho el speed-up item (acelerador). La nave es equipada con doble disparo (dos proyectiles)."*
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
 
---------
-![](https://i.imgur.com/Vycq7BR.png)
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051117.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
 
-28 Noviembre, 2005
-*"Incluido que los enemigos aparezcan desde atrás. Esta es la característica de Guxt desde donde aparecen los enemigos. Esto fue hecho con los restos que fueron desechados del juego BA2 (juego anterior)"*
+  <div style="flex: 1;">
+    <h4>17 Noviembre, 2005</h4>
 
-Nota josemwarrior: los enemigos aparecen desde abajo de la pantalla, viendo su reverso, llegan a la parte de arriba se dan la vuelta y luego descienden. 
+    <p>
+      <i>
+      "Poder derribar al enemigo con un proyectil. La animación de la explosion era simple."
+      </i>
+    </p>
+  </div>
 
---------
-![](https://i.imgur.com/SVLXU8S.png)
+</div>
 
-28 Noviembre, 2005 (si, mismo dia)
-*"Estas son el tipo de naves que rodean al jugador mientras hacen un circulo alrededor. Dificil de ver debido a la velocidad de los enemigos, quizas causada por el alto ratio de dibujo (fps)"*
 
---------
-![](https://i.imgur.com/j4IndTm.png)
 
-29 Noviembre, 2005
-*"Añadidos enemigos que disparan proyectiles. También aparecen desde atrás..."*
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
 
---------
-![](https://i.imgur.com/BMH5LiV.png)
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051118.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
 
-1 Diciembre, 2005
-*"Comencé a diseñar el primer jefe de nivel. Consta de 7 partes, las cuales son los ojos, alas, y la recarga de sus armas. No da la sensación de que es un sprite con multiples partes."*
+  <div style="flex: 1;">
+    <h4>18 Noviembre, 2005</h4>
 
---------
-![](https://i.imgur.com/f5dHeuo.png)
+    <p>
+      <i>
+      "Añado la posibilidad de mostrar mensajes en pantalla. Solo una línea, centrada. Nada versátil... Esta fue la etapa en la que dibujé la fuente personalizada."
+      </i>
+    </p>
+  </div>
 
-2 Diciembre, 2005
-*"El primer jefe aparece desde atrás."*
+</div>
 
---------
-![](https://i.imgur.com/5BBZCtx.png)
 
-2 Diciembre, 2005
-*"Es también equipado con triple lasers."*
 
---------
-![](https://i.imgur.com/VYXekir.png)
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
 
-2 Diciembre, 2005
-*"Programada la puntuación cuando la nave coge un item."*
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051120.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
 
+  <div style="flex: 1;">
+    <h4>20 Noviembre, 2005</h4>
 
---------
-![](https://i.imgur.com/Va98iQM.png)
+    <p>
+      <i>
+      "Incluido la puntuación en la parte superior izquierda, y los FPS en la parte superior derecha."
+      </i>
+    </p>
+  </div>
 
-4 Diciembre, 2005
-*"Programada la animación de la destrucción del primer jefe"*
+</div>
 
---------
-![](https://i.imgur.com/8Rw2ZpE.png)
 
-7 Diciembre, 2005
-*"Creada la pantalla para introducir nombre para el ranking de puntuación."*
 
---------
-![](https://i.imgur.com/vZqDWkW.png)
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
 
-7 Diciembre, 2005
-*"Creada la pantalla de ranking. Conectada justo después de introducir nombre."*
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051123.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
 
+  <div style="flex: 1;">
+    <h4>23 Noviembre, 2005</h4>
 
---------
-![](https://i.imgur.com/0o9asDC.png)
+    <p>
+      <i>
+      "Añado nubes que aparecen al azar en el fondo, y un efecto de rastro de nubes para la nave. Quería transmitir sensación de velocidad. Los colores parecen de Game Boy..."
+      </i>
+    </p>
+  </div>
 
-8 Diciembre, 2005
-*"Stage 1 (primera pantalla) completamente creada. Más la típica secuencia de acelaración para la siguiente fase."*
+</div>
 
---------
-![](https://i.imgur.com/1r0iFgA.png)
 
-12 Diciembre, 2005
-*"Personajes que se suponía que iban a ser incluidos en la version final del juego..."*
 
---------
-![](https://i.imgur.com/yPNcOw0.png)
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
 
-14 Diciembre, 2005
-*"Comencé a trabajar en la segunda pantalla del juego. Han pasado dos meses desde que comencé."*
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051124.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
 
---------
-![](https://i.imgur.com/iVw3hBo.png)
+  <div style="flex: 1;">
+    <h4>24 Noviembre, 2005</h4>
 
-15 Diciembre, 2005
-*"La fase 2 cuenta con cantos rodados entrantes. Se pueden evitar o ser destruidos. Se requiere suerte para poder evitarlos... La nave esta actualmente equipada con disparo en 3 direcciones (Triangle Shot)."*
+    <p>
+      <i>
+      "Creo unos enemigos que llegan dando vueltas. Son los primeros que aparecen en el juego."
+      </i>
+    </p>
+  </div>
 
---------
-![](https://i.imgur.com/W0cG0Wa.png)
+</div>
 
-15 Diciembre, 2005
-*"Otra versión del disparo en 3 direcciones (Back Shot). También los enemigos aparecen desde abajo."*
 
---------
-![](https://i.imgur.com/jpTtEvT.png)
 
-20 Diciembre, 2005
-*"Morir de un solo golpe es demasiado duro, asi que incluí un item de escudo."*
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
 
---------
-![](https://i.imgur.com/jLqPIIp.png)
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051125.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
 
-18 Enero, 2006
-*"Fue una buena decisión tener la ventana más pequeña lo que realmente hizo hacer sprites mucho más fácil... Sería injusto que los misiles regresen desde fuera de la pantalla una vez han salido, por lo que esta idea fue rechazada."*
+  <div style="flex: 1;">
+    <h4>25 Noviembre, 2005</h4>
 
---------
-![](https://i.imgur.com/6digsQB.png)
+    <p>
+      <i>
+      "Se ha cambiado el fondo para mantener el equilibrio visual. Al principio pensaba hacerlo todo en 2 colores, pero a estas alturas ya no hay vuelta atrás..."
+      </i>
+    </p>
+  </div>
 
-21 Enero, 2006
-*"Los misiles los dividí en 3 partes desde el extremo de la pantalla. Mantenía la dificultad pero parecía aburrido..."*
+</div>
 
---------
-![](https://i.imgur.com/eUN7yMj.png)
 
-23 Enero, 2006
-*"Hecha la pantalla de titulo. El nombre del juego esta aún por confirmar."*
 
---------
-![](https://i.imgur.com/JD2zJuS.png)
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
 
-27 Enero, 2006
-*"Pantalla de configuración de teclas. Si bien esto se necesita hacer correctamente, me lo tome más en serio que de costumbre."*
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051126.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
 
---------
-![](https://i.imgur.com/3MmXeUa.png)
+  <div style="flex: 1;">
+    <h4>26 Noviembre, 2005</h4>
 
-2 Febrero, 2006
-*"Como preparación para hacer la tercera pantalla (Stage 3), tuve que diseñar la detección de colisiones. Esto necesita ser abordado por encima de todo."*
+    <p>
+      <i>
+      "Pantalla de Game Over. Es decir, implementé la detección de muerte del jugador."
+      </i>
+    </p>
+  </div>
 
---------
-![](https://i.imgur.com/wYmaJc0.png)
+</div>
 
-3 Febrero, 2006
-*"Sería más fácil si al tocar cualquier pared ocasionara muerte-de-un-solo-golpe."*
 
---------
-![](https://i.imgur.com/IBvVAFZ.png)
 
-4 Febrero, 2006
-*"Trabajé exitosamente en la detección entre las paredes y los proyectiles. La velocidad del proyectil es rápida por lo que pasa a través de las grietas facilmente."*
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
 
---------
-![](https://i.imgur.com/OBhNarD.png)
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051127.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
 
-11 Febrero, 2006
-*"Por mucho que quise aumentar la dificultad, quise mantener el equilibrio para mi para poder pasarme el juego, ya que soy malisimo en los juegos de disparos..."*
+  <div style="flex: 1;">
+    <h4>27 Noviembre, 2005</h4>
 
---------
-![](https://i.imgur.com/YboebBZ.png)
+    <p>
+      <i>
+      "Hecho el speed-up item (acelerador). La nave es equipada con doble disparo (dos proyectiles)."
+      </i>
+    </p>
+  </div>
 
-13 Febrero, 2006
-*"Enemigos que aparecen de repente al comienzo del Stage 3. Me estaba quedando sin ideas."*
+</div>
 
---------
-![](https://i.imgur.com/nAslDKQ.png)
 
-20 Febrero, 2006
-*"No se recibira ningún daño al tocar las paredes, sin embargo, algunos jugadores puede que no se den cuenta de esto. Este triple disparo fue desechado."*
 
---------
-![](https://i.imgur.com/AQQ8Hd6.png)
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
 
-22 Febrero, 2006
-*"Añadidos paredes/obstaculos destruibles. Solo aparecen en este escenario."*
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051128_1.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
 
---------
-![](https://i.imgur.com/C9Em2uh.png)
+  <div style="flex: 1;">
+    <h4>28 Noviembre, 2005</h4>
 
-1 Marzo, 2006
-*"Enemigos que aparecen de frente rodean la nave por debajo."*
+    <p>
+      <i>
+      "Creo un enemigo que sube por detrás. Que los enemigos vengan por detrás es una de las señas de identidad de Guxt. En realidad es un vestigio de un juego que estaba haciendo con BA2 y que quedó descartado."
+      </i>
+    </p>
+    <h6>Nota traductor: los enemigos aparecen desde abajo de la pantalla, viendo su reverso, llegan a la parte de arriba se dan la vuelta y luego descienden.</h6>
+  </div>
 
---------
-![](https://i.imgur.com/ToYKpXt.png)
+</div>
 
-3 Marzo, 2006
-*"Añadido un personaje oculto. Fue divertido de hacer, pero tenía prisa."*
 
---------
-![](https://i.imgur.com/Eua0poI.png)
 
-3 Marzo, 2006
-*"Redibujadas las nubes. También añadí otras mas largas. Tenía que darle sensación de velocidad aumentando el scroll."*
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
 
---------
-![](https://i.imgur.com/gserBrd.png)
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051128_2.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
 
-12 Marzo, 2006
-*"Que de qué va esta pantalla...? Es solo las coordenadas."*
+  <div style="flex: 1;">
+    <h4>28 Noviembre, 2005</h4>
 
---------
-![](https://i.imgur.com/VyeUsgy.png)
+    <p>
+      <i>
+      "Estas son el tipo de naves que rodean al jugador mientras hacen un circulo alrededor. Dificil de ver debido a la velocidad de los enemigos, quizas causada por la alta tasa de refresco (fps)"
+      </i>
+    </p>
+  </div>
 
-21 Marzo, 2006
-*"Empecé a desarrollar el jefe final de la fase 3. Tuve que obligarme mucho a pensar y actualizar infinidad de veces."*
+</div>
 
---------
-![](https://i.imgur.com/z0KfBnD.png)
 
-1 Abril, 2006
-*"Creo que pudé haber diseñado sistemáticamente 3 niveles de patrones de ataque."*
 
---------
-![](https://i.imgur.com/TWBT7iL.png)
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
 
-7 Mayo, 2006
-*"Tener tres capas de blindaje te hacen poderoso ya, así que tuve que pensar como llamaría al item que esta lejos de ser 'power-up'. De otra manera, las críticas podrían seguir."*
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051129.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
 
---------
-![](https://i.imgur.com/Vefwf1j.png)
+  <div style="flex: 1;">
+    <h4>29 Noviembre, 2005</h4>
 
-24 Mayo, 2006
-*"Solamente hay disponibles dos capturas del Escenario 4. Probablemente porque tenia prisa por terminar."*
+    <p>
+      <i>
+      "Añadidos enemigos que disparan proyectiles. También aparecen desde atrás…"
+      </i>
+    </p>
+  </div>
 
---------
-![](https://i.imgur.com/SAnXEIo.png)
+</div>
 
-11 Diciembre, 2006
-*"Secuencia de hiperdesplazmiento para empezar el Escenario 5. Las piedras son las que hacen scrolling y no el background (fondo)."*
 
---------
-![](https://i.imgur.com/Zc19sVx.png)
 
-6 Enero, 2007
-*"Comienzo del Stage 5."*
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
 
---------
-![](https://i.imgur.com/E49U6N0.png)
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051201.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
 
-9 Enero, 2007
-*"Se siente bien destruir las unidades de tierra como un juego de disparos de Hudson."*
+  <div style="flex: 1;">
+    <h4>1 Diciembre, 2005</h4>
 
---------
-![](https://i.imgur.com/3UnHfBv.png)
+    <p>
+      <i>
+      "Empiezo a crear el jefe de la fase 1. Está formado por 7 elementos: alas, ojos y torretas. No tengo energía para hacer personajes con muchas articulaciones..."
+      </i>
+    </p>
+  </div>
 
-14 Enero, 2007
-*"El Stage 5 tiene demasiadas capturas de pantalla. Tal vez porque estoy anunciando que está a punto de concluir."*
+</div>
 
---------
-![](https://i.imgur.com/DSf1QqO.png)
 
-23 Enero, 2007
-*"Esto es justo antes del jefe final. La parte buena es que el jefe final no aparece cuando empieza a sonar la musica de fondo del jefe final. Según lo veo yo."*
 
---------
-![](https://i.imgur.com/gS21Iib.png)
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
 
-27 Enero, 2007
-*"Dibujando el jefe final poco a poco, hasta que se muestra completamente."*
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051202_1.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
 
---------
-![](https://i.imgur.com/gUIhfks.png)
+  <div style="flex: 1;">
+    <h4>2 Diciembre, 2005</h4>
 
-30 Enero, 2007
-*"Poniendo coberturas protectoras en sus puntos débiles."*
+    <p>
+      <i>
+      "El jefe de la fase 1 ahora aparece entrando por detrás."
+      </i>
+    </p>
+  </div>
 
---------
-![](https://i.imgur.com/d0qZwjB.png)
+</div>
 
-5 Febrero, 2007
-*"Al ampliar la trayectoria hace que el jugador tenga que moverse mas alrededor."*
 
---------
-![](https://i.imgur.com/gV7RlZE.png)
 
-18 Febrero, 2007
-*"Decidí el titulo, 'Guxt'"*
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
 
---------
-![](https://i.imgur.com/FtbTalF.png)
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051202_2.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
 
-22 Febrero, 2007
-*"Realizada la escena de destrucción del quinto jefe final."*
+  <div style="flex: 1;">
+    <h4>2 Diciembre, 2005</h4>
 
---------
-![](https://i.imgur.com/qMh8dQK.png)
+    <p>
+      <i>
+      "El jefe de la fase 1 ya tiene el láser triple equipado."
+      </i>
+    </p>
+  </div>
 
-24 Febrero, 2007
-*"Opciones 'Trial' y 'Ranking' disponibles en la pantalla de titulo. Eliminado el borde de la fuente debido a su nivel de detalle."*
+</div>
 
---------
-![](https://i.imgur.com/53e2d2r.png)
 
-6 Marzo, 2007
-*"Para hacer visibles los disparos de los enemigos...
-Y planeé solo usar escala de grises en un principio..."*
 
---------
-![](https://i.imgur.com/EoTS5Cv.png)
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
 
-11 Abril, 2007
-*"Prototipo de jefe final."*
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051202_3.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
 
---------
-![](https://i.imgur.com/Dd9Ujbo.png)
+  <div style="flex: 1;">
+    <h4>2 Diciembre, 2005</h4>
 
-18 Abril, 2007
-*"Como yo estaba diseñando el jefe final, que ahora se asemeja Fuyuhiko"*
+    <p>
+      <i>
+      "Pruebo a hacer que la puntuación varíe según el momento en que se recoge el objeto."
+      </i>
+    </p>
+  </div>
 
---------
-![](https://i.imgur.com/HxW29RH.png)
+</div>
 
-19 Abril, 2007
-*"No era difícil de superar de acuerdo a las impresiones de los demás. A pesar de ello, sentí emoción la primera vez que me encontré con él..."*
 
---------
-![](https://i.imgur.com/IcYCPM1.png)
 
-21 Abril, 2007
-*"Casi completo"*
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
 
---------
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051204.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
 
-*"Finalmente:
-Muchas gracias a los testeadores y a aquellos quienes me dieron sus impresiones. Sin ellos, no hubiera sido capaz de terminarlo y lanzarlo.
-Estoy ansioso por su apoyo para futuros proyectos."*
+  <div style="flex: 1;">
+    <h4>4 Diciembre, 2005</h4>
 
---------
+    <p>
+      <i>
+      "Creo la escena de destrucción del jefe de la fase 1."
+      </i>
+    </p>
+  </div>
 
+</div>
 
-El videojuego es gratuito, y lo podéis descargar [aquí](https://homepage2.nifty.com/rochet/binaries/guxt_1020_wz.zip).
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051207_1.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>7 Diciembre, 2005</h4>
+
+    <p>
+      <i>
+      "Creo la pantalla para introducir el nombre en el ranking."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051207_2.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>7 Diciembre, 2005</h4>
+
+    <p>
+      <i>
+      "Creo la pantalla de clasificación. La conecté con la pantalla de título justo antes de terminar el juego."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051208_1.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>8 Diciembre, 2005</h4>
+
+    <p>
+      <i>
+      "¡La fase 1 por fin completada! La típica escena de turbo de rigor..."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051212.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>12 Diciembre, 2005</h4>
+
+    <p>
+      <i>
+      "Un personaje descartado que iba a aparecer a lo largo de todo el juego..."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051214.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>14 Diciembre, 2005</h4>
+
+    <p>
+      <i>
+      "Empiezo a hacer la fase 2. Para llegar aquí ya han pasado 2 meses..."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051215_1.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>15 Diciembre, 2005</h4>
+
+    <p>
+      <i>
+      "La fase 2 se caracteriza por los meteoritos que caen volando. O los destruyes o los esquivas. Como son duros, lo mejor es esquivarlos... La nave esta actualmente equipada con disparo en 3 direcciones (Triangle Shot)."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051215_2.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>15 Diciembre, 2005</h4>
+
+    <p>
+      <i>
+      "El rayo triple, segunda versión (Back Shot). Y otro nuevo personaje que aparece también por detrás."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/051220.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>20 Diciembre, 2005</h4>
+
+    <p>
+      <i>
+      "Morir de un solo golpe es muy duro, así que añado un item de escudo."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/060118.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>18 Enero, 2006</h4>
+
+    <p>
+      <i>
+      "Con una pantalla pequeña es más fácil dibujar hasta los personajes grandes. Está claro que lo de la pantalla pequeña fue un acierto... El misil-pez que quedó descartado porque era injusto que volviera desde fuera de la pantalla."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/060121.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>21 Enero, 2006</h4>
+
+    <p>
+      <i>
+      "Un misil que se divide en tres al llegar al borde de la pantalla. El equilibrio está bien, pero queda un poco soso."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/060123.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>23 Enero, 2006</h4>
+
+    <p>
+      <i>
+      "Creo la pantalla de título. Aunque todavía no tenía nombre el juego."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/060127.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>27 Enero, 2006</h4>
+
+    <p>
+      <i>
+      "La pantalla de configuración de controles. Qué serio soy haciendo estas cosas, más que nunca hasta ahora."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/060202.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>2 Febrero, 2006</h4>
+
+    <p>
+      <i>
+      "De cara a la fase 3, programo la detección de colisiones con el mapa. Esto necesita ser abordado por encima de todo."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/060203.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>3 Febrero, 2006</h4>
+
+    <p>
+      <i>
+      "Si chocar con una pared supusiera muerte instantánea, esto sería mucho más fácil de programar..."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/060204.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>4 Febrero, 2006</h4>
+
+    <p>
+      <i>
+      "Detección de colisiones entre las balas y el mapa. Como las balas se mueven rápido, tienden a atravesar las paredes..."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/060211.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>11 Febrero, 2006</h4>
+
+    <p>
+      <i>
+      "La dificultad tiende a ser bastante alta, pero como yo soy malo en los shooters, pienso que si yo puedo completarlo, el equilibrio estará bien..."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/060213.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>13 Febrero, 2006</h4>
+
+    <p>
+      <i>
+      "Al principio de la fase 3, una oleada de enemigos de golpe. Es que si no, el ritmo se iba a caer."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/060220.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>20 Febrero, 2006</h4>
+
+    <p>
+      <i>
+      "Chocar con una pared no hace daño, pero habrá jugadores que no se den cuenta. El rayo triple paralelo que quedó descartado."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/060222.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>22 Febrero, 2006</h4>
+
+    <p>
+      <i>
+      "Añado paredes destructibles. Al final solo aparecen aquí."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/060301.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>1 Marzo, 2006</h4>
+
+    <p>
+      <i>
+      "Un enemigo que viene de frente y se cuela por detrás."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/060303_1.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>3 Marzo, 2006</h4>
+
+    <p>
+      <i>
+      "¡Añado un personaje secreto! Me divierte hacer estos extras, pero es una pena no haberles podido dedicar más tiempo."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/060303_2.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>3 Marzo, 2006</h4>
+
+    <p>
+      <i>
+      "Redibujé las nubes y añadí nubes grandes. Las del primer plano se mueven rápido para dar más sensación de velocidad..."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/060312.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>12 Marzo, 2006</h4>
+
+    <p>
+      <i>
+      "No recuerdo qué era este pantallazo... ¿Solo mostrando coordenadas?"
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/060321.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>21 Marzo, 2006</h4>
+
+    <p>
+      <i>
+      "Empiezo a hacer el jefe de la fase 3. Un ciclo tranquilo de 'pensar, añadir, repetir'."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/060401.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>1 Abril, 2006</h4>
+
+    <p>
+      <i>
+      "Creo que estaba haciendo los tres patrones de ataque de manera bastante mecánica..."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/060507.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>7 Mayo, 2006</h4>
+
+    <p>
+      <i>
+      "Con tres barreras te vuelves casi invencible, así que esto es más bien un debilitamiento disfrazado de potenciador. Si queda vistoso, nadie se quejará..."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/060524.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>24 Mayo, 2006</h4>
+
+    <p>
+      <i>
+      "Solo tengo dos pantallazos de la fase 4... Es que simplemente quería terminar el juego cuanto antes."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/061211.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>11 Diciembre, 2006</h4>
+
+    <p>
+      <i>
+      "La escena de desplazamiento rápido de la fase 5. Lo que se mueve rápido en realidad no es el fondo, sino solo las piedrecillas..."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/070106.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>6 Enero, 2007</h4>
+
+    <p>
+      <i>
+      "El comienzo de la fase 5..."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/070109.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>9 Enero, 2007</h4>
+
+    <p>
+      <i>
+      "Se siente bien destruir las unidades de tierra como un juego de disparos de Hudson."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/070114.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>14 Enero, 2007</h4>
+
+    <p>
+      <i>
+      "Vaya, hay muchos pantallazos de la fase 5... Supongo que estaría muy motivado viendo que el final se acercaba."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/070123.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>23 Enero, 2007</h4>
+
+    <p>
+      <i>
+      "Justo antes del jefe final. El truco está en que la música del jefe empiece a sonar un rato antes de que aparezca el jefe en sí. Creo."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/070127.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>27 Enero, 2007</h4>
+
+    <p>
+      <i>
+      "Muestro en pantalla el jefe que dibujé píxel a píxel con tanto cuidado."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/070130.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>30 Enero, 2007</h4>
+
+    <p>
+      <i>
+      "Poniendo coberturas protectoras en sus puntos débiles."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/070205.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>5 Febrero, 2007</h4>
+
+    <p>
+      <i>
+      "Hago que el jugador se mueva de un lado a otro con una trayectoria de disparo bien amplia."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/070218.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>18 Febrero, 2007</h4>
+
+    <p>
+      <i>
+      "Decidí el titulo, ‘Guxt’."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/070222.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>22 Febrero, 2007</h4>
+
+    <p>
+      <i>
+      "Realizada la escena de destrucción del quinto jefe final."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/070224.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>24 Febrero, 2007</h4>
+
+    <p>
+      <i>
+      "Añado la opción de seleccionar modo contrarreloj, ranking, etc. El borde de la fuente quedaba demasiado cargado, así que lo quito."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/070306.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>6 Marzo, 2007</h4>
+
+    <p>
+      <i>
+      "Para que los ataques enemigos sean más fáciles de ver... Al principio pensaba hacerlo todo en escala de grises."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/070411.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>11 Abril, 2007</h4>
+
+    <p>
+      <i>
+      "El jefe final de la fase de prueba."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/070418.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>18 Abril, 2007</h4>
+
+    <p>
+      <i>
+      "Cuanto más lo redibujaba, más se iba pareciendo a Fuyuhiko."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/070419.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>19 Abril, 2007</h4>
+
+    <p>
+      <i>
+      "Según los comentarios, no parece muy difícil. Pero la primera vez que te lo encuentres debería de ponerte en tensión..."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+
+
+<div style="display: flex; gap: 30px; align-items: flex-start;margin-bottom: 60px;">
+
+  <div style="min-width: 250px; max-width: 250px;">
+    <img src="/assets/img/guxt/070421.png"
+         style="
+           width: 100%;
+           height: auto;
+           image-rendering: pixelated;
+           image-rendering: crisp-edges;
+         ">
+  </div>
+
+  <div style="flex: 1;">
+    <h4>21 Abril, 2007</h4>
+
+    <p>
+      <i>
+      "Casi terminado."
+      </i>
+    </p>
+  </div>
+
+</div>
+
+*"Finalmente: Muchas gracias a los testeadores y a aquellos quienes me dieron sus impresiones. Sin ellos, no hubiera sido capaz de terminarlo y lanzarlo. Estoy ansioso por su apoyo para futuros proyectos."*
+
+
+El videojuego es gratuito, y lo podéis descargar [aquí](https://www.cavestory.one/pixels-works/guxt.php).
