@@ -7,8 +7,8 @@ entries:
   - title: About
     url: about
 
-  - title: Recommended Game Dev Media
-    url: gamedev-media
+  - title: My favourite game development resources
+    url: gamedev-resources
 
   - title: Mis entradas
     post_list:

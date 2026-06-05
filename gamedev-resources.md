@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Recommended Game Dev Media
+title: My favourite game development resources
 ---
 
-Everyone has their own list of books and videos they recommend for gamedev, this is my own list. Fortunately, the most mentioned books on the subject are not here—how boring and dull it is that everyone recommends the same books. These are my personal favorites.
-
-## 📚 Books
+It's boring how everyone recommends the same books over and over again. Here are my personal favourites:
 
 <div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start; margin-bottom: 2rem; margin-top: 1rem;">
   
@@ -31,11 +29,8 @@ Everyone has their own list of books and videos they recommend for gamedev, this
 
 </div>
 
-## 🎬 Videos
-
 <div style="margin-bottom: 2rem; margin-top: 1rem;">
-  <h3>Unite 2016 - What Makes Great Games Great? Game Design with Gigi</h3>
-  <p>My favorite video on game design.</p>
+  <p>My favourite video on game design.</p>
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 1rem;">
     <iframe src="https://www.youtube.com/embed/aC3c_pcWwIQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
   </div>
