@@ -4,13 +4,16 @@
 entries:
   - title: Soy yo escribiendo mi blog.
 
+  - title: About
+    url: about
+
+  - title: Recommended Game Dev Media
+    url: gamedev-media
+
   - title: Mis entradas
     post_list:
       limit: no
       show_more: false
-
-  - title: Acerca de mí
-    url: about
 
   - title: rss
     url: feed.xml
