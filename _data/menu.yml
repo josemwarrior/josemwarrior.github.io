@@ -2,15 +2,10 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: Soy yo escribiendo mi blog.
-
   - title: About
     url: about
 
-  - title: My favourite game development resources
-    url: gamedev-resources
-
-  - title: Mis entradas
+  - title: My post
     post_list:
       limit: no
       show_more: false

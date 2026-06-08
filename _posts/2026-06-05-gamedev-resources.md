@@ -1,6 +1,8 @@
 ---
-layout: page
-title: My favourite game development resources
+layout: post
+title: "My favourite game development resources"
+date: 2026-06-05 08:33:01
+tags: []
 ---
 
 It's boring how everyone recommends the same books over and over again. Here are my personal favourites:
