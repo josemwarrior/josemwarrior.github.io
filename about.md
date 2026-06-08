@@ -3,6 +3,8 @@ layout: page
 title: About
 ---
 
-This is an example page!
+<p style="text-align:center">
+  <img src="/assets/img/about.jpg" alt="About">
+</p>
 
-It's very similar to a `post` layout, with the only difference that the publish date is not shown!
+Easy! Ever since I was a child, I've wanted to create games, and now I earn a living doing just that. Living the dream!
