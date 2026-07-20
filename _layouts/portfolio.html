@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: "en" }}">
+  {%- include head.html -%}
+  <body class="portfolio-page" a="light">
+    <a class="skip-link" href="#work">Skip to selected work</a>
+
+    <main class="portfolio-shell">
+      <header class="portfolio-header">
+        <a class="portfolio-mark" href="{{ '/' | relative_url }}" aria-label="Jose Miguel Guerrero, home">
+          JMG<span aria-hidden="true">.</span>
+        </a>
+
+        <nav class="portfolio-nav" aria-label="Main navigation">
+          <a href="#work">Work</a>
+          <a href="{{ '/about.html' | relative_url }}">About</a>
+        </nav>
+      </header>
+
+      {{ content }}
+
+      <footer class="portfolio-footer">
+        <p>Jose Miguel Guerrero <span aria-hidden="true">—</span> HTML5 Game Developer</p>
+        <a href="#top" aria-label="Back to the top">Back to top <span aria-hidden="true">↑</span></a>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -96,3 +96,373 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+// -------------- PORTFOLIO HOME -------------- //
+.portfolio-page {
+  --ink: #151515;
+  --paper: #f4f2ed;
+  --line: #cbc8c0;
+  --accent: #d8ff47;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.portfolio-page *,
+.portfolio-page *::before,
+.portfolio-page *::after {
+  box-sizing: border-box;
+}
+
+.portfolio-page a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.portfolio-page a:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 4px;
+}
+
+.portfolio-page *:target {
+  background: transparent;
+}
+
+.skip-link {
+  background: var(--accent);
+  left: 1rem;
+  padding: .75rem 1rem;
+  position: fixed;
+  top: 1rem;
+  transform: translateY(-180%);
+  transition: transform 180ms ease;
+  z-index: 10;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+.portfolio-shell {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 0 4vw;
+}
+
+.portfolio-header {
+  align-items: center;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  justify-content: space-between;
+  min-height: 92px;
+}
+
+.portfolio-mark {
+  font-size: 1.05rem;
+  font-weight: 800;
+  letter-spacing: -.04em;
+}
+
+.portfolio-mark span {
+  color: #768d16;
+}
+
+.portfolio-nav {
+  align-items: center;
+  display: flex;
+  gap: clamp(1.25rem, 3vw, 3rem);
+}
+
+.portfolio-nav a,
+.portfolio-footer a {
+  border-bottom: 1px solid transparent;
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.portfolio-nav a:hover,
+.portfolio-footer a:hover {
+  border-color: currentColor;
+}
+
+.portfolio-hero {
+  min-height: min(760px, calc(100vh - 92px));
+  padding: clamp(5rem, 11vw, 10rem) 0 clamp(5rem, 9vw, 8rem);
+}
+
+.portfolio-kicker,
+.project-type {
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.portfolio-kicker::before {
+  background: var(--accent);
+  border-radius: 50%;
+  content: '';
+  display: inline-block;
+  height: .7rem;
+  margin-right: .6rem;
+  vertical-align: -.05rem;
+  width: .7rem;
+}
+
+.portfolio-hero h1 {
+  font-size: clamp(3.7rem, 9.6vw, 9.25rem);
+  font-weight: 700;
+  letter-spacing: -.075em;
+  line-height: .82;
+  margin: clamp(2rem, 4vw, 4rem) 0;
+  max-width: 12ch;
+}
+
+.portfolio-intro {
+  font-size: clamp(1.05rem, 1.7vw, 1.4rem);
+  line-height: 1.45;
+  margin: 0 0 3rem;
+  max-width: 41rem;
+}
+
+.portfolio-cta {
+  align-items: center;
+  border-bottom: 1px solid var(--ink);
+  display: inline-flex;
+  font-size: .75rem;
+  font-weight: 700;
+  gap: 2rem;
+  letter-spacing: .12em;
+  padding: 0 0 .45rem;
+  text-transform: uppercase;
+}
+
+.portfolio-cta span {
+  transition: transform 180ms ease;
+}
+
+.portfolio-cta:hover span {
+  transform: translateY(.25rem);
+}
+
+.work-section {
+  border-top: 1px solid var(--line);
+  padding: clamp(5rem, 9vw, 8rem) 0 clamp(5rem, 9vw, 8rem);
+}
+
+.section-heading {
+  align-items: end;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: minmax(10rem, 1fr) 2fr;
+  margin-bottom: clamp(3rem, 7vw, 6rem);
+}
+
+.section-heading h2 {
+  font-size: clamp(2.6rem, 6vw, 6rem);
+  font-weight: 700;
+  letter-spacing: -.06em;
+  line-height: .92;
+  margin: 0;
+}
+
+.project-grid {
+  display: grid;
+  gap: clamp(4.5rem, 9vw, 9rem) clamp(1.5rem, 4vw, 4rem);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.project-card:nth-child(even) {
+  margin-top: clamp(5rem, 12vw, 11rem);
+}
+
+.project-visual {
+  aspect-ratio: 4 / 3;
+  background: #dfddd7;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.project-visual img {
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+  transition: transform 500ms cubic-bezier(.2, .65, .3, 1);
+  width: 100%;
+}
+
+.project-card:nth-child(1) .project-visual img {
+  object-position: 50% 23%;
+}
+
+.project-card:nth-child(2) .project-visual img {
+  object-position: 50% 50%;
+}
+
+.project-card:nth-child(3) .project-visual img {
+  object-position: 50% 45%;
+}
+
+.project-card:nth-child(4) .project-visual img {
+  object-position: 50% 55%;
+}
+
+.project-visual:hover img {
+  transform: scale(1.025);
+}
+
+.project-index,
+.project-arrow {
+  align-items: center;
+  background: var(--paper);
+  display: flex;
+  font-size: .7rem;
+  font-weight: 700;
+  height: 2.6rem;
+  justify-content: center;
+  position: absolute;
+  top: 1rem;
+  width: 2.6rem;
+}
+
+.project-index {
+  left: 1rem;
+}
+
+.project-arrow {
+  background: var(--accent);
+  font-size: 1.2rem;
+  right: 1rem;
+  transition: transform 180ms ease;
+}
+
+.project-visual:hover .project-arrow {
+  transform: rotate(45deg);
+}
+
+.project-copy {
+  border-top: 1px solid var(--ink);
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: minmax(0, .85fr) minmax(12rem, 1fr);
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+}
+
+.project-type {
+  color: #686761;
+  margin-bottom: .75rem;
+}
+
+.project-copy h3 {
+  font-size: clamp(1.5rem, 2.3vw, 2.15rem);
+  letter-spacing: -.045em;
+  line-height: 1.05;
+  margin: 0;
+}
+
+.project-copy h3 a {
+  background-image: linear-gradient(var(--accent), var(--accent));
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0 35%;
+  transition: background-size 220ms ease;
+}
+
+.project-copy h3 a:hover {
+  background-size: 100% 35%;
+}
+
+.project-copy > p {
+  color: #4d4c48;
+  font-size: .92rem;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.portfolio-footer {
+  align-items: center;
+  border-top: 1px solid var(--line);
+  display: flex;
+  justify-content: space-between;
+  min-height: 150px;
+}
+
+.portfolio-footer p {
+  font-size: .8rem;
+  margin: 0;
+}
+
+@media (max-width: 840px) {
+  .portfolio-shell {
+    padding: 0 1.25rem;
+  }
+
+  .portfolio-header {
+    min-height: 76px;
+  }
+
+  .portfolio-hero {
+    min-height: auto;
+    padding: 5rem 0 6rem;
+  }
+
+  .portfolio-hero h1 {
+    font-size: clamp(3.4rem, 17vw, 6rem);
+    line-height: .86;
+  }
+
+  .section-heading {
+    display: block;
+  }
+
+  .section-heading .portfolio-kicker {
+    margin-bottom: 2rem;
+  }
+
+  .project-grid {
+    display: block;
+  }
+
+  .project-card,
+  .project-card:nth-child(even) {
+    margin: 0 0 5rem;
+  }
+
+  .project-copy {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .portfolio-hero h1 {
+    font-size: clamp(3.25rem, 17vw, 5rem);
+  }
+
+  .project-visual {
+    aspect-ratio: 1 / 1;
+  }
+
+  .portfolio-footer {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .portfolio-page *,
+  .portfolio-page *::before,
+  .portfolio-page *::after {
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+  }
+}
