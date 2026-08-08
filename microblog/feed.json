@@ -12,9 +12,7 @@
       "title": "Esto es una prueba de como sería mi POSSE.",
       "content_text": "Esto es una prueba de como sería mi POSSE.",
       "date_published": "2026-08-08T22:30:02.039Z",
-      "tags": [
-        "gamedev"
-      ],
+      "tags": [],
       "language": "en",
       "image": "https://josemwarrior.github.io/assets/microblog/media/game.gif"
     },
@@ -24,9 +22,7 @@
       "title": "Testing the Jekyll-only Satomi workflow.",
       "content_text": "Testing the Jekyll-only Satomi workflow.",
       "date_published": "2026-08-08T22:03:04.940Z",
-      "tags": [
-        "gamedev"
-      ],
+      "tags": [],
       "language": "en"
     },
     {
@@ -36,7 +32,6 @@
       "content_text": "This is a local integration test for the Satomi microblog layout, image rendering, and chronological index. It is intentionally excluded from social syndication.",
       "date_published": "2026-08-08T21:30:00.000Z",
       "tags": [
-        "gamedev",
         "pixelart"
       ],
       "language": "en",
