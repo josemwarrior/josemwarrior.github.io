@@ -6,25 +6,11 @@
     <description>Short notes, screenshots, and game development work in progress.</description>
     <language>en</language>
     <item>
-      <title>Esto es una prueba de como sería mi POSSE.</title>
-      <link>https://josemwarrior.github.io/microblog/2026-08-09-game/</link>
-      <guid isPermaLink="true">https://josemwarrior.github.io/microblog/2026-08-09-game/</guid>
-      <pubDate>Sat, 08 Aug 2026 22:30:02 GMT</pubDate>
-      <description>&lt;p&gt;Esto es una prueba de como sería mi POSSE.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://josemwarrior.github.io/assets/microblog/media/game.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Testing the Jekyll-only Satomi workflow.</title>
-      <link>https://josemwarrior.github.io/microblog/2026-08-09-testing-the-jekyll-only-satomi-workflow/</link>
-      <guid isPermaLink="true">https://josemwarrior.github.io/microblog/2026-08-09-testing-the-jekyll-only-satomi-workflow/</guid>
-      <pubDate>Sat, 08 Aug 2026 22:03:04 GMT</pubDate>
-      <description>&lt;p&gt;Testing the Jekyll-only Satomi workflow.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Satomi integration test</title>
-      <link>https://josemwarrior.github.io/microblog/2026-08-08-satomi-integration-test/</link>
-      <guid isPermaLink="true">https://josemwarrior.github.io/microblog/2026-08-08-satomi-integration-test/</guid>
-      <pubDate>Sat, 08 Aug 2026 21:30:00 GMT</pubDate>
-      <description>&lt;p&gt;This is a local integration test for the Satomi microblog layout, image rendering, and chronological index. It is intentionally excluded from social syndication.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://josemwarrior.github.io/assets/microblog/media/satomi-test.png&quot; alt=&quot;A red pixel-art character standing on purple platforms above the clouds while a finger points toward the next jump.&quot;&gt;&lt;/p&gt;</description>
+      <title>No entiendo que le veía la gente a este juego?</title>
+      <link>https://josemwarrior.github.io/microblog/2026-08-09-bubble-bobble/</link>
+      <guid isPermaLink="true">https://josemwarrior.github.io/microblog/2026-08-09-bubble-bobble/</guid>
+      <pubDate>Sat, 08 Aug 2026 23:22:06 GMT</pubDate>
+      <description>&lt;p&gt;No entiendo que le veía la gente a este juego?&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://josemwarrior.github.io/assets/microblog/media/bubble-bobble.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -7,35 +7,14 @@
   "language": "en",
   "items": [
     {
-      "id": "https://josemwarrior.github.io/microblog/2026-08-09-game/",
-      "url": "https://josemwarrior.github.io/microblog/2026-08-09-game/",
-      "title": "Esto es una prueba de como sería mi POSSE.",
-      "content_text": "Esto es una prueba de como sería mi POSSE.",
-      "date_published": "2026-08-08T22:30:02.039Z",
+      "id": "https://josemwarrior.github.io/microblog/2026-08-09-bubble-bobble/",
+      "url": "https://josemwarrior.github.io/microblog/2026-08-09-bubble-bobble/",
+      "title": "No entiendo que le veía la gente a este juego?",
+      "content_text": "No entiendo que le veía la gente a este juego?",
+      "date_published": "2026-08-08T23:22:06.637Z",
       "tags": [],
       "language": "en",
-      "image": "https://josemwarrior.github.io/assets/microblog/media/game.gif"
-    },
-    {
-      "id": "https://josemwarrior.github.io/microblog/2026-08-09-testing-the-jekyll-only-satomi-workflow/",
-      "url": "https://josemwarrior.github.io/microblog/2026-08-09-testing-the-jekyll-only-satomi-workflow/",
-      "title": "Testing the Jekyll-only Satomi workflow.",
-      "content_text": "Testing the Jekyll-only Satomi workflow.",
-      "date_published": "2026-08-08T22:03:04.940Z",
-      "tags": [],
-      "language": "en"
-    },
-    {
-      "id": "https://josemwarrior.github.io/microblog/2026-08-08-satomi-integration-test/",
-      "url": "https://josemwarrior.github.io/microblog/2026-08-08-satomi-integration-test/",
-      "title": "Satomi integration test",
-      "content_text": "This is a local integration test for the Satomi microblog layout, image rendering, and chronological index. It is intentionally excluded from social syndication.",
-      "date_published": "2026-08-08T21:30:00.000Z",
-      "tags": [
-        "pixelart"
-      ],
-      "language": "en",
-      "image": "https://josemwarrior.github.io/assets/microblog/media/satomi-test.png"
+      "image": "https://josemwarrior.github.io/assets/microblog/media/bubble-bobble.jpg"
     }
   ]
 }
