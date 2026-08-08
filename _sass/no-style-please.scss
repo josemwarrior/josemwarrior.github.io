@@ -466,3 +466,104 @@ img {
     transition-duration: .01ms !important;
   }
 }
+
+// -------------- MICROBLOG -------------- //
+.microblog-header {
+  margin-bottom: 3rem;
+}
+
+.microblog-header h1 {
+  margin-bottom: .5rem;
+}
+
+.microblog-header p {
+  margin-top: 0;
+}
+
+.microblog-list {
+  border-top: thin solid currentColor;
+}
+
+.microblog-entry {
+  border-bottom: thin solid currentColor;
+  padding: 2rem 0;
+}
+
+.microblog-entry--single {
+  border-top: thin solid currentColor;
+  margin-top: 1.5rem;
+}
+
+.microblog-entry__header h1,
+.microblog-entry__header h2 {
+  font-size: 1.2rem;
+  margin: .35rem 0 1rem;
+}
+
+.microblog-entry__header time {
+  font-size: .875rem;
+}
+
+.microblog-entry__content > :first-child {
+  margin-top: 0;
+}
+
+.microblog-entry__content > :last-child {
+  margin-bottom: 0;
+}
+
+.microblog-entry__media {
+  height: auto;
+  margin: 1.5rem 0 0;
+  max-height: 70vh;
+  object-fit: contain;
+  object-position: left center;
+  width: auto;
+}
+
+.microblog-entry__tags {
+  font-size: .875rem;
+  margin-bottom: 0;
+}
+
+.microblog-entry__tags span + span {
+  margin-left: .75rem;
+}
+
+.microblog-back {
+  margin-bottom: 2rem;
+}
+
+.microblog-pagination {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.microblog-pagination[hidden] {
+  display: none;
+}
+
+.microblog-pagination button {
+  background: transparent;
+  border: thin solid currentColor;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  padding: .5rem .75rem;
+}
+
+.microblog-pagination button:disabled {
+  cursor: not-allowed;
+  opacity: .45;
+}
+
+@media (max-width: 520px) {
+  .microblog-pagination {
+    align-items: stretch;
+    flex-direction: column;
+    text-align: center;
+  }
+}

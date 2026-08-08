@@ -8,6 +8,9 @@ entries:
   - title: Portfolio
     url: portfolio.html
 
+  - title: Microblog
+    url: /microblog/
+
   - title: My post
     post_list:
       limit: no

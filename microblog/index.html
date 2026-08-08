@@ -1,0 +1,67 @@
+---
+layout: default
+title: Microblog
+permalink: /microblog/
+---
+
+<header class="microblog-header">
+  <a href="{{ '/' | relative_url }}">← Home</a>
+  <h1>Microblog</h1>
+  <p>Short notes, screenshots, and work in progress.</p>
+</header>
+
+{% assign microblog_entries = site.microblog | sort: "date" | reverse %}
+
+{% if microblog_entries == empty %}
+  <p>No microblog entries yet.</p>
+{% else %}
+  <section class="microblog-list" data-microblog-list>
+    {% for entry in microblog_entries %}
+      <article class="microblog-entry" data-microblog-entry>
+        <header class="microblog-entry__header">
+          <a href="{{ entry.url | relative_url }}">
+            <time datetime="{{ entry.date | date_to_xmlschema }}">
+              {{ entry.date | date: site.theme_config.date_format }}
+            </time>
+          </a>
+          {% if entry.title %}<h2>{{ entry.title }}</h2>{% endif %}
+        </header>
+
+        <div class="microblog-entry__content">
+          {{ entry.content }}
+        </div>
+
+        {% if entry.image %}
+          <a href="{{ entry.url | relative_url }}" aria-label="Open {{ entry.title | default: 'microblog entry' | escape }}">
+            <img
+              class="microblog-entry__media"
+              src="{{ entry.image | escape }}"
+              alt="{{ entry.alt | default: '' | escape }}"
+              loading="lazy"
+            >
+          </a>
+        {% endif %}
+
+        {% if entry.tags and entry.tags != empty %}
+          <p class="microblog-entry__tags" aria-label="Tags">
+            {% for tag in entry.tags %}<span>#{{ tag }}</span>{% unless forloop.last %} {% endunless %}{% endfor %}
+          </p>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </section>
+
+  <nav
+    class="microblog-pagination"
+    aria-label="Microblog pages"
+    data-microblog-pagination
+    data-page-size="20"
+    hidden
+  >
+    <button type="button" data-page-previous>← Newer</button>
+    <span data-page-status aria-live="polite"></span>
+    <button type="button" data-page-next>Older →</button>
+  </nav>
+{% endif %}
+
+<script src="{{ '/assets/js/microblog-pagination.js' | relative_url }}" defer></script>
