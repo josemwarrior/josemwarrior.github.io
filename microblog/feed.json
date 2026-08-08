@@ -1,0 +1,34 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "My Untold Journal Microblog",
+  "home_page_url": "https://josemwarrior.github.io/microblog/",
+  "feed_url": "https://josemwarrior.github.io/microblog/feed.json",
+  "description": "Short notes, screenshots, and game development work in progress.",
+  "language": "en",
+  "items": [
+    {
+      "id": "https://josemwarrior.github.io/microblog/2026-08-09-testing-the-jekyll-only-satomi-workflow/",
+      "url": "https://josemwarrior.github.io/microblog/2026-08-09-testing-the-jekyll-only-satomi-workflow/",
+      "title": "Testing the Jekyll-only Satomi workflow.",
+      "content_text": "Testing the Jekyll-only Satomi workflow.",
+      "date_published": "2026-08-08T22:03:04.940Z",
+      "tags": [
+        "gamedev"
+      ],
+      "language": "en"
+    },
+    {
+      "id": "https://josemwarrior.github.io/microblog/2026-08-08-satomi-integration-test/",
+      "url": "https://josemwarrior.github.io/microblog/2026-08-08-satomi-integration-test/",
+      "title": "Satomi integration test",
+      "content_text": "This is a local integration test for the Satomi microblog layout, image rendering, and chronological index. It is intentionally excluded from social syndication.",
+      "date_published": "2026-08-08T21:30:00.000Z",
+      "tags": [
+        "gamedev",
+        "pixelart"
+      ],
+      "language": "en",
+      "image": "https://josemwarrior.github.io/assets/microblog/media/satomi-test.png"
+    }
+  ]
+}
