@@ -7,6 +7,18 @@
   "language": "en",
   "items": [
     {
+      "id": "https://josemwarrior.github.io/microblog/2026-08-09-game/",
+      "url": "https://josemwarrior.github.io/microblog/2026-08-09-game/",
+      "title": "Esto es una prueba de como sería mi POSSE.",
+      "content_text": "Esto es una prueba de como sería mi POSSE.",
+      "date_published": "2026-08-08T22:30:02.039Z",
+      "tags": [
+        "gamedev"
+      ],
+      "language": "en",
+      "image": "https://josemwarrior.github.io/assets/microblog/media/game.gif"
+    },
+    {
       "id": "https://josemwarrior.github.io/microblog/2026-08-09-testing-the-jekyll-only-satomi-workflow/",
       "url": "https://josemwarrior.github.io/microblog/2026-08-09-testing-the-jekyll-only-satomi-workflow/",
       "title": "Testing the Jekyll-only Satomi workflow.",
