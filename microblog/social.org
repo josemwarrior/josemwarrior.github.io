@@ -1,8 +1,8 @@
 #+TITLE: My Untold Microblog
 #+NICK: josemwarrior
-#+DESCRIPTION: Pensamientos, opiniones, y avances de desarrollo de mis juegos.
+#+DESCRIPTION: Me gusta hacer juegos y los juegos retro.
 #+AVATAR: https://josemwarrior.github.io/assets/img/avatar-social.jpg
-#+LINK: https://josemwarrior.github.io/microblog/
+#+LINK: https://josemwarrior.github.io/
 #+LANGUAGE: es
 
 * Posts
@@ -23,11 +23,11 @@ Tengo que retomar Mastodon como plataforma para publicar mis avances también.
 
 Tengo ganas de jugar este experimento en Game Boy, Resident Evil: Gaiden
 
-[[https://josemwarrior.github.io/assets/microblog/media/reg-2.jpg][]]
+[[https://josemwarrior.github.io/assets/microblog/media/reg-2.jpg]]
 
 ** 2026-08-09T00:36:15+0000
 :PROPERTIES:
-:LANG: en
+:LANG: es
 :TAGS: 
 :END:
 
