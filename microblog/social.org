@@ -7,6 +7,14 @@
 
 * Posts
 
+** 2026-08-09T01:39:36+0000
+:PROPERTIES:
+:LANG: es
+:TAGS: 
+:END:
+
+Tengo que retomar Mastodon como plataforma para publicar mis avances también.
+
 ** 2026-08-09T01:07:31+0000
 :PROPERTIES:
 :LANG: es
@@ -15,7 +23,7 @@
 
 Tengo ganas de jugar este experimento en Game Boy, Resident Evil: Gaiden
 
-[[https://josemwarrior.github.io/assets/microblog/media/reg-2.jpg]]
+[[https://josemwarrior.github.io/assets/microblog/media/reg-2.jpg][]]
 
 ** 2026-08-09T00:36:15+0000
 :PROPERTIES:
