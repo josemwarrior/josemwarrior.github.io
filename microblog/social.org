@@ -1,14 +1,14 @@
-#+TITLE: My Untold Journal Microblog
+#+TITLE: My Untold Microblog
 #+NICK: josemwarrior
-#+DESCRIPTION: Short notes, screenshots, and game development work in progress.
-#+AVATAR: https://josemwarrior.github.io/logo.png
+#+DESCRIPTION: Pensamientos, opiniones, y avances de desarrollo de mis juegos.
+#+AVATAR: https://josemwarrior.github.io/assets/img/avatar-social.jpg
 #+LINK: https://josemwarrior.github.io/microblog/
 
 * Posts
 
 ** 2026-08-09T00:36:15+0000
 :PROPERTIES:
-:LANG: en
+:LANG: es
 :TAGS: 
 :END:
 
