@@ -7,6 +7,16 @@
   "language": "es",
   "items": [
     {
+      "id": "https://josemwarrior.github.io/microblog/2026-08-09-green-alarm/",
+      "url": "https://josemwarrior.github.io/microblog/2026-08-09-green-alarm/",
+      "title": "Si consigo pasar este test, ya doy por válido la versión 1.0.0 de Satomi",
+      "content_text": "Si consigo pasar este test, ya doy por válido la versión 1.0.0 de Satomi",
+      "date_published": "2026-08-09T19:21:55.846Z",
+      "tags": [],
+      "language": "es",
+      "image": "https://josemwarrior.github.io/assets/microblog/media/green-alarm.gif"
+    },
+    {
       "id": "https://josemwarrior.github.io/microblog/2026-08-09-satomi/",
       "url": "https://josemwarrior.github.io/microblog/2026-08-09-satomi/",
       "title": "He vibecodeado una tool para sindicar contenido por todas tus rrss.",
