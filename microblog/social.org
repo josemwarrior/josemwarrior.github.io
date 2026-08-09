@@ -3,12 +3,23 @@
 #+DESCRIPTION: Pensamientos, opiniones, y avances de desarrollo de mis juegos.
 #+AVATAR: https://josemwarrior.github.io/assets/img/avatar-social.jpg
 #+LINK: https://josemwarrior.github.io/microblog/
+#+LANGUAGE: es
 
 * Posts
 
-** 2026-08-09T00:36:15+0000
+** 2026-08-09T01:07:31+0000
 :PROPERTIES:
 :LANG: es
+:TAGS: 
+:END:
+
+Tengo ganas de jugar este experimento en Game Boy, Resident Evil: Gaiden
+
+[[https://josemwarrior.github.io/assets/microblog/media/reg-2.jpg][]]
+
+** 2026-08-09T00:36:15+0000
+:PROPERTIES:
+:LANG: en
 :TAGS: 
 :END:
 
