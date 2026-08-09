@@ -7,6 +7,14 @@
 
 * Posts
 
+** 2026-08-09T22:13:21+0000
+:PROPERTIES:
+:LANG: es
+:TAGS: 
+:END:
+
+Ya he terminado la sindicación con Satomi. Ahora podré estar en multiples sitios escribiendo un solo mensaje por terminal. Me siento bastante satisfecho y orgulloso. Ha sido un proyecto que me ha llevado dos días, que sin la IA hubiese sido practicamente imposible.
+
 ** 2026-08-09T21:09:40+0000
 :PROPERTIES:
 :LANG: es
