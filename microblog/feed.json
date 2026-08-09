@@ -7,6 +7,23 @@
   "language": "es",
   "items": [
     {
+      "id": "https://josemwarrior.github.io/microblog/2026-08-09-vagn0l/",
+      "url": "https://josemwarrior.github.io/microblog/2026-08-09-vagn0l/",
+      "title": "Este fue el proyecto con el que mejor me lo pasé el año pasado.",
+      "content_text": "Este fue el proyecto con el que mejor me lo pasé el año pasado. Animar un personaje lowpoly en Three.js.",
+      "date_published": "2026-08-09T21:09:40.539Z",
+      "tags": [],
+      "language": "es",
+      "attachments": [
+        {
+          "url": "https://files.catbox.moe/vagn0l.mp4",
+          "mime_type": "video/mp4",
+          "size_in_bytes": 439231,
+          "duration_in_seconds": 7
+        }
+      ]
+    },
+    {
       "id": "https://josemwarrior.github.io/microblog/2026-08-09-green-alarm/",
       "url": "https://josemwarrior.github.io/microblog/2026-08-09-green-alarm/",
       "title": "Si consigo pasar este test, ya doy por válido la versión 1.0.0 de Satomi",

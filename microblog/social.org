@@ -7,6 +7,16 @@
 
 * Posts
 
+** 2026-08-09T21:09:40+0000
+:PROPERTIES:
+:LANG: es
+:TAGS: 
+:END:
+
+Este fue el proyecto con el que mejor me lo pasé el año pasado. Animar un personaje lowpoly en Three.js.
+
+[[https://files.catbox.moe/vagn0l.mp4]]
+
 ** 2026-08-09T19:21:55+0000
 :PROPERTIES:
 :LANG: es
