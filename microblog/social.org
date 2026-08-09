@@ -7,6 +7,16 @@
 
 * Posts
 
+** 2026-08-09T22:49:31+0000
+:PROPERTIES:
+:LANG: es
+:TAGS: 
+:END:
+
+Siempre me ha parecido hermosa la imagen del IDE con la ventana del output mostrando un gráfico sencillo, en cada tecnología nueva que voy descubriendo. No digo en broma que me parece tan hermoso que lo pondría un cuadro y lo colgaría en la pared.
+
+[[https://josemwarrior.github.io/assets/microblog/media/ceramic.jpg]]
+
 ** 2026-08-09T22:48:29+0000
 :PROPERTIES:
 :LANG: es
