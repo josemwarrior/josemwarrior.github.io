@@ -18,18 +18,20 @@ layout: default
   </div>
 
   {% if page.video %}
-    <video
-      class="microblog-entry__media"
-      controls
-      playsinline
-      preload="metadata"
-      {% if page.video_width %}width="{{ page.video_width }}"{% endif %}
-      {% if page.video_height %}height="{{ page.video_height }}"{% endif %}
-      {% if page.alt %}aria-label="{{ page.alt | escape }}"{% endif %}
-    >
-      <source src="{{ page.video | escape }}" type="{{ page.video_type | default: 'video/mp4' | escape }}">
-      <a href="{{ page.video | escape }}">Descargar vídeo</a>
-    </video>
+    <div class="microblog-entry__video">
+      <video
+        class="microblog-entry__media"
+        controls
+        playsinline
+        preload="metadata"
+        {% if page.video_width %}width="{{ page.video_width }}"{% endif %}
+        {% if page.video_height %}height="{{ page.video_height }}"{% endif %}
+        {% if page.alt %}aria-label="{{ page.alt | escape }}"{% endif %}
+      >
+        <source src="{{ page.video | escape }}" type="{{ page.video_type | default: 'video/mp4' | escape }}">
+        <a href="{{ page.video | escape }}">Descargar vídeo</a>
+      </video>
+    </div>
   {% elsif page.image %}
     <img
       class="microblog-entry__media"

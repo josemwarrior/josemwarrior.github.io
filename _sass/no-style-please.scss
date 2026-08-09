@@ -6,7 +6,10 @@
 
     &.ioda { filter: invert(0); }
   }
-  video { filter: invert(1); }
+  // Safari on macOS composites video frames separately. Apply the compensating
+  // inversion to a regular HTML layer instead of directly to the video surface.
+  video { filter: none; }
+  .microblog-entry__video { filter: invert(1); }
   .emoji { filter: invert(1); }
   iframe {
     filter: invert(1);
@@ -522,6 +525,14 @@ img {
   object-fit: contain;
   object-position: left center;
   width: auto;
+}
+
+.microblog-entry__video {
+  margin: 1.5rem 0 0;
+}
+
+.microblog-entry__video .microblog-entry__media {
+  margin-top: 0;
 }
 
 .microblog-entry__tags {

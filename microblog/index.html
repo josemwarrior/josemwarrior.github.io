@@ -31,18 +31,20 @@ permalink: /microblog/
         </div>
 
         {% if entry.video %}
-          <video
-            class="microblog-entry__media"
-            controls
-            playsinline
-            preload="metadata"
-            {% if entry.video_width %}width="{{ entry.video_width }}"{% endif %}
-            {% if entry.video_height %}height="{{ entry.video_height }}"{% endif %}
-            {% if entry.alt %}aria-label="{{ entry.alt | escape }}"{% endif %}
-          >
-            <source src="{{ entry.video | escape }}" type="{{ entry.video_type | default: 'video/mp4' | escape }}">
-            <a href="{{ entry.video | escape }}">Descargar vídeo</a>
-          </video>
+          <div class="microblog-entry__video">
+            <video
+              class="microblog-entry__media"
+              controls
+              playsinline
+              preload="metadata"
+              {% if entry.video_width %}width="{{ entry.video_width }}"{% endif %}
+              {% if entry.video_height %}height="{{ entry.video_height }}"{% endif %}
+              {% if entry.alt %}aria-label="{{ entry.alt | escape }}"{% endif %}
+            >
+              <source src="{{ entry.video | escape }}" type="{{ entry.video_type | default: 'video/mp4' | escape }}">
+              <a href="{{ entry.video | escape }}">Descargar vídeo</a>
+            </video>
+          </div>
         {% elsif entry.image %}
           <a href="{{ entry.url | relative_url }}" aria-label="Open {{ entry.title | default: 'microblog entry' | escape }}">
             <img
