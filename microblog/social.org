@@ -7,13 +7,15 @@
 
 * Posts
 
-** 2026-08-09T01:39:36+0000
+** 2026-08-09T18:52:05+0000
 :PROPERTIES:
 :LANG: es
 :TAGS: 
 :END:
 
-Tengo que retomar Mastodon como plataforma para publicar mis avances también.
+He vibecodeado una tool para sindicar contenido por todas tus rrss. En Github estoy por decir 'Que és' y 'Como se usa', ya los frontier models son mejores explicando que cualquier documentación (generada por IA) que pueda poner
+
+[[https://josemwarrior.github.io/assets/microblog/media/satomi.png]]
 
 ** 2026-08-09T01:07:31+0000
 :PROPERTIES:
@@ -24,11 +26,3 @@ Tengo que retomar Mastodon como plataforma para publicar mis avances también.
 Tengo ganas de jugar este experimento en Game Boy, Resident Evil: Gaiden
 
 [[https://josemwarrior.github.io/assets/microblog/media/reg-2.jpg]]
-
-** 2026-08-09T00:36:15+0000
-:PROPERTIES:
-:LANG: es
-:TAGS: 
-:END:
-
-Este es mi primer mensaje para Org-social

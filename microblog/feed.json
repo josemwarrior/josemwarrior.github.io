@@ -7,40 +7,14 @@
   "language": "es",
   "items": [
     {
-      "id": "https://josemwarrior.github.io/microblog/2026-08-09-voy-a-comenzar-a-publicar-mis-avances-aqui-en-x/",
-      "url": "https://josemwarrior.github.io/microblog/2026-08-09-voy-a-comenzar-a-publicar-mis-avances-aqui-en-x/",
-      "title": "Voy a comenzar a publicar mis avances aquí en X.",
-      "content_text": "Voy a comenzar a publicar mis avances aquí en X.",
-      "date_published": "2026-08-09T02:51:36.586Z",
+      "id": "https://josemwarrior.github.io/microblog/2026-08-09-satomi/",
+      "url": "https://josemwarrior.github.io/microblog/2026-08-09-satomi/",
+      "title": "He vibecodeado una tool para sindicar contenido por todas tus rrss.",
+      "content_text": "He vibecodeado una tool para sindicar contenido por todas tus rrss. En Github estoy por decir 'Que és' y 'Como se usa', ya los frontier models son mejores explicando que cualquier documentación (generada por IA) que pueda poner",
+      "date_published": "2026-08-09T18:52:05.411Z",
       "tags": [],
-      "language": "es"
-    },
-    {
-      "id": "https://josemwarrior.github.io/microblog/2026-08-09-va-siendo-hora-de-retomar-tambien-bluesky/",
-      "url": "https://josemwarrior.github.io/microblog/2026-08-09-va-siendo-hora-de-retomar-tambien-bluesky/",
-      "title": "Va siendo hora de retomar también Bluesky",
-      "content_text": "Va siendo hora de retomar también Bluesky",
-      "date_published": "2026-08-09T02:11:04.397Z",
-      "tags": [],
-      "language": "es"
-    },
-    {
-      "id": "https://josemwarrior.github.io/microblog/2026-08-09-tengo-que-retomar-mastodon-como-plataforma-para-publicar-mis-avances/",
-      "url": "https://josemwarrior.github.io/microblog/2026-08-09-tengo-que-retomar-mastodon-como-plataforma-para-publicar-mis-avances/",
-      "title": "Tengo que retomar Mastodon como plataforma para publicar mis avances.",
-      "content_text": "Tengo que retomar Mastodon como plataforma para publicar mis avances.",
-      "date_published": "2026-08-09T01:42:57.161Z",
-      "tags": [],
-      "language": "es"
-    },
-    {
-      "id": "https://josemwarrior.github.io/microblog/2026-08-09-tengo-que-retomar-mastodon-como-plataforma-para-publicar-mis-avances-tam/",
-      "url": "https://josemwarrior.github.io/microblog/2026-08-09-tengo-que-retomar-mastodon-como-plataforma-para-publicar-mis-avances-tam/",
-      "title": "Tengo que retomar Mastodon como plataforma para publicar mis avances tam",
-      "content_text": "Tengo que retomar Mastodon como plataforma para publicar mis avances también.",
-      "date_published": "2026-08-09T01:39:36.626Z",
-      "tags": [],
-      "language": "es"
+      "language": "es",
+      "image": "https://josemwarrior.github.io/assets/microblog/media/satomi.png"
     },
     {
       "id": "https://josemwarrior.github.io/microblog/2026-08-09-reg-2/",
@@ -51,15 +25,6 @@
       "tags": [],
       "language": "en",
       "image": "https://josemwarrior.github.io/assets/microblog/media/reg-2.jpg"
-    },
-    {
-      "id": "https://josemwarrior.github.io/microblog/2026-08-09-este-es-mi-primer-mensaje-para-org-social/",
-      "url": "https://josemwarrior.github.io/microblog/2026-08-09-este-es-mi-primer-mensaje-para-org-social/",
-      "title": "Este es mi primer mensaje para Org-social",
-      "content_text": "Este es mi primer mensaje para Org-social",
-      "date_published": "2026-08-09T00:36:15.539Z",
-      "tags": [],
-      "language": "en"
     },
     {
       "id": "https://josemwarrior.github.io/microblog/2026-08-09-bubble-bobble/",
