@@ -7,6 +7,14 @@
 
 * Posts
 
+** 2026-08-09T22:48:29+0000
+:PROPERTIES:
+:LANG: es
+:TAGS: 
+:END:
+
+No quiero salirme de ahí (Aunque Defold me mira con ojillos desde la esquina). Quiero tener control total del juego. Es algo que vibecodeando pierdes, ganas mucha rapidez, prototipas rápido, pero pierdes control. Es por eso que renunciaré al 'agentic programming' esta vez.
+
 ** 2026-08-09T22:47:21+0000
 :PROPERTIES:
 :LANG: es
