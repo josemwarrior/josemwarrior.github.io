@@ -4,7 +4,7 @@ title: About
 ---
 
 <p style="text-align:center">
-  <img src="/assets/img/about.jpg" alt="About">
+  <img src="/assets/img/about.png" alt="About">
 </p>
 
 Whenever I came across a new mechanism that captured my imagination as a child, my first instinct was to take it apart. I wanted to discover what made it move, to understand the quiet logic hidden inside it, and perhaps carry that discovery into something of my own. More often than not, I broke things I had no idea how to put back together, earning more than a few scoldings from my family. What they perhaps could not yet see, among the scattered screws and plastic shells, was a child possessed by a voracious curiosity and a hunger for knowledge.
