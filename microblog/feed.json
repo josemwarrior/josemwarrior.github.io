@@ -7,6 +7,15 @@
   "language": "es",
   "items": [
     {
+      "id": "https://josemwarrior.github.io/microblog/2026-08-10-despues-de-este-miniparentesis-en-el-gamedev-voy-a-empezar-un-proyecto/",
+      "url": "https://josemwarrior.github.io/microblog/2026-08-10-despues-de-este-miniparentesis-en-el-gamedev-voy-a-empezar-un-proyecto/",
+      "title": "Después de este miniparéntesis en el gamedev, voy a empezar un proyecto",
+      "content_text": "Después de este miniparéntesis en el gamedev, voy a empezar un proyecto nuevo. Está vez usaré un framework nuevo, Ceramic. Es bastante similar a lo que venía usando Pixi.js, Phaser.js y a otros frameworks sin un Editor integrado.",
+      "date_published": "2026-08-09T22:47:21.947Z",
+      "tags": [],
+      "language": "es"
+    },
+    {
       "id": "https://josemwarrior.github.io/microblog/2026-08-10-ya-he-terminado-la-sindicacion-con-satomi/",
       "url": "https://josemwarrior.github.io/microblog/2026-08-10-ya-he-terminado-la-sindicacion-con-satomi/",
       "title": "Ya he terminado la sindicación con Satomi.",

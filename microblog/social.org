@@ -7,6 +7,14 @@
 
 * Posts
 
+** 2026-08-09T22:47:21+0000
+:PROPERTIES:
+:LANG: es
+:TAGS: 
+:END:
+
+Después de este miniparéntesis en el gamedev, voy a empezar un proyecto nuevo. Está vez usaré un framework nuevo, Ceramic. Es bastante similar a lo que venía usando Pixi.js, Phaser.js y a otros frameworks sin un Editor integrado.
+
 ** 2026-08-09T22:13:21+0000
 :PROPERTIES:
 :LANG: es
