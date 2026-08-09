@@ -101,6 +101,84 @@ img {
   margin: 0 auto;
 }
 
+// -------------- HOME PROFILE -------------- //
+.home-profile {
+  margin: 2rem 0;
+}
+
+.home-profile__avatar-frame {
+  aspect-ratio: 1;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  height: 8.5rem;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 8.5rem;
+}
+
+.home-profile__avatar {
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+  width: 100%;
+}
+
+.home-social {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  margin-top: .9rem;
+  width: 100%;
+}
+
+.home-social__link {
+  align-items: center;
+  border-radius: 50%;
+  color: inherit;
+  display: flex;
+  height: 2.75rem;
+  justify-content: center;
+  justify-self: center;
+  transition: background-color 120ms ease, color 120ms ease, transform 120ms ease;
+  width: 2.75rem;
+}
+
+.home-social__link:hover {
+  background: black;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.home-social__link:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
+.home-social__link svg {
+  height: 1.35rem;
+  width: 1.35rem;
+}
+
+.home-social__org-icon {
+  align-items: center;
+  border: 2px solid currentColor;
+  border-radius: 2px;
+  display: flex;
+  font-size: .55rem;
+  font-weight: 700;
+  height: 1.15rem;
+  justify-content: center;
+  letter-spacing: -.06em;
+  line-height: 1;
+  width: 1.35rem;
+}
+
+@media (max-width: 420px) {
+  .home-social__link {
+    height: 2.25rem;
+    width: 2.25rem;
+  }
+}
+
 // -------------- PORTFOLIO HOME -------------- //
 .portfolio-page {
   --ink: #151515;

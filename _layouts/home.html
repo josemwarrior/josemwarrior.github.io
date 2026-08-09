@@ -6,6 +6,59 @@ layout: default
   {%-if site.theme_config.show_description-%}
     <p>{{ site.description }}</p>
   {%-endif-%}
+
+  <div class="home-profile">
+    <div class="home-profile__avatar-frame">
+      <img
+        class="home-profile__avatar"
+        src="{{ "/assets/img/avatar-social.jpg" | relative_url }}"
+        alt="Avatar de josemwarrior"
+        width="493"
+        height="492"
+        decoding="async"
+      />
+    </div>
+
+    <nav class="home-social" aria-label="Perfiles sociales">
+      <a class="home-social__link" href="https://t.me/josemwarrior" rel="me" aria-label="Telegram" title="Telegram">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4" />
+        </svg>
+      </a>
+
+      <a class="home-social__link" href="https://t.me/josem_microblog" rel="me" aria-label="Canal de Telegram" title="Canal de Telegram">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18.364 19.364a9 9 0 1 0 -12.728 0" />
+          <path d="M15.536 16.536a5 5 0 1 0 -7.072 0" />
+          <path d="M11 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+        </svg>
+      </a>
+
+      <a class="home-social__link" href="https://bsky.app/profile/josemwarrior.bsky.social" rel="me" aria-label="Bluesky" title="Bluesky">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6.335 5.144c-1.654 -1.199 -4.335 -2.127 -4.335 .826c0 .59 .35 4.953 .556 5.661c.713 2.463 3.13 2.75 5.444 2.369c-4.045 .665 -4.889 3.208 -2.667 5.41c1.03 1.018 1.913 1.59 2.667 1.59c2 0 3.134 -2.769 3.5 -3.5c.333 -.667 .5 -1.167 .5 -1.5c0 .333 .167 .833 .5 1.5c.366 .731 1.5 3.5 3.5 3.5c.754 0 1.637 -.571 2.667 -1.59c2.222 -2.203 1.378 -4.746 -2.667 -5.41c2.314 .38 4.73 .094 5.444 -2.369c.206 -.708 .556 -5.072 .556 -5.661c0 -2.953 -2.68 -2.025 -4.335 -.826c-2.293 1.662 -4.76 5.048 -5.665 6.856c-.905 -1.808 -3.372 -5.194 -5.665 -6.856" />
+        </svg>
+      </a>
+
+      <a class="home-social__link" href="https://x.com/josemwarrior" rel="me" aria-label="X" title="X">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 4l11.733 16h4.267l-11.733 -16l-4.267 0" />
+          <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+        </svg>
+      </a>
+
+      <a class="home-social__link" href="https://mastodon.gamedev.place/@josemwarrior" rel="me" aria-label="Mastodon" title="Mastodon">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18.648 15.254c-1.816 1.763 -6.648 1.626 -6.648 1.626a18.262 18.262 0 0 1 -3.288 -.256c1.127 1.985 4.12 2.81 8.982 2.475c-1.945 2.013 -13.598 5.257 -13.668 -7.636l-.026 -1.154c0 -3.036 .023 -4.115 1.352 -5.633c1.671 -1.91 6.648 -1.666 6.648 -1.666s4.977 -.243 6.648 1.667c1.329 1.518 1.352 2.597 1.352 5.633s-.456 4.074 -1.352 4.944" />
+          <path d="M12 11.204v-2.926c0 -1.258 -.895 -2.278 -2 -2.278s-2 1.02 -2 2.278v4.722m4 -4.722c0 -1.258 .895 -2.278 2 -2.278s2 1.02 2 2.278v4.722" />
+        </svg>
+      </a>
+
+      <a class="home-social__link" href="{{ "/microblog/social.org" | relative_url }}" rel="me" aria-label="Org social" title="Org social">
+        <span class="home-social__org-icon" aria-hidden="true">.ORG</span>
+      </a>
+    </nav>
+  </div>
 </header>
 
 {%-include menu_item.html collection=site.data.menu.entries-%}
