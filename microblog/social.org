@@ -1,0 +1,15 @@
+#+TITLE: My Untold Journal Microblog
+#+NICK: josemwarrior
+#+DESCRIPTION: Short notes, screenshots, and game development work in progress.
+#+AVATAR: https://josemwarrior.github.io/logo.png
+#+LINK: https://josemwarrior.github.io/microblog/
+
+* Posts
+
+** 2026-08-09T00:36:15+0000
+:PROPERTIES:
+:LANG: en
+:TAGS: 
+:END:
+
+Este es mi primer mensaje para Org-social
