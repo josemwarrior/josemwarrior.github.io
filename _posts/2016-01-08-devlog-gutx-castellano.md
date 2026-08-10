@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Devlog de Guxt (spanish)"
+title: "Devlog de Guxt"
 date: 2016-01-08 21:50:34
 tags: []
 ---
