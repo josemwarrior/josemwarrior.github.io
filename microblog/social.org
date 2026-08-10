@@ -1,11 +1,21 @@
-#+TITLE: josemwarrior
+#+TITLE: My Untold Microblog
 #+NICK: josemwarrior
-#+DESCRIPTION: Web personal con enlaces a mis redes, contacto, portfolio, blog y microblog.
+#+DESCRIPTION: Me gusta hacer juegos y los juegos retro.
 #+AVATAR: https://josemwarrior.github.io/assets/img/avatar-social.jpg
 #+LINK: https://josemwarrior.github.io/
 #+LANGUAGE: es
 
 * Posts
+
+** 2026-08-10T18:09:25+0000
+:PROPERTIES:
+:LANG: es
+:TAGS: 
+:END:
+
+Estaría guay republicar mi contenido en un canal de Whatsapp, tiene bastante tráfico, pero WhatsApp no ofrece una forma de publica automáticamente en canales, ni siquiera la posibilidad de meter un bot en un canal y que publique por mí (como si hace Telegram).
+
+[[https://josemwarrior.github.io/assets/microblog/media/w.jpg]]
 
 ** 2026-08-10T00:27:03+0000
 :PROPERTIES:

@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>josemwarrior</title>
+    <title>My Untold Journal Microblog</title>
     <link>https://josemwarrior.github.io/microblog/</link>
-    <description>Web personal con enlaces a mis redes, contacto, portfolio, blog y microblog.</description>
+    <description>Short notes, screenshots, and game development work in progress.</description>
     <language>es</language>
+    <item>
+      <title>Estaría guay republicar mi contenido en un canal de Whatsapp, tiene bast</title>
+      <link>https://josemwarrior.github.io/microblog/2026-08-10-w/</link>
+      <guid isPermaLink="true">https://josemwarrior.github.io/microblog/2026-08-10-w/</guid>
+      <pubDate>Mon, 10 Aug 2026 18:09:25 GMT</pubDate>
+      <description>&lt;p&gt;Estaría guay republicar mi contenido en un canal de Whatsapp, tiene bastante tráfico, pero WhatsApp no ofrece una forma de publica automáticamente en canales, ni siquiera la posibilidad de meter un bot en un canal y que publique por mí (como si hace Telegram).&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://josemwarrior.github.io/assets/microblog/media/w.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Repo de Satomi: https://github.com/josemwarrior/satomi-2000</title>
       <link>https://josemwarrior.github.io/microblog/2026-08-10-repo-de-satomi-https-github-com-josemwarrior-satomi-2000/</link>

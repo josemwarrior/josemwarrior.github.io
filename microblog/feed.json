@@ -1,11 +1,21 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "josemwarrior",
+  "title": "My Untold Journal Microblog",
   "home_page_url": "https://josemwarrior.github.io/microblog/",
   "feed_url": "https://josemwarrior.github.io/microblog/feed.json",
-  "description": "Web personal con enlaces a mis redes, contacto, portfolio, blog y microblog.",
+  "description": "Short notes, screenshots, and game development work in progress.",
   "language": "es",
   "items": [
+    {
+      "id": "https://josemwarrior.github.io/microblog/2026-08-10-w/",
+      "url": "https://josemwarrior.github.io/microblog/2026-08-10-w/",
+      "title": "Estaría guay republicar mi contenido en un canal de Whatsapp, tiene bast",
+      "content_text": "Estaría guay republicar mi contenido en un canal de Whatsapp, tiene bastante tráfico, pero WhatsApp no ofrece una forma de publica automáticamente en canales, ni siquiera la posibilidad de meter un bot en un canal y que publique por mí (como si hace Telegram).",
+      "date_published": "2026-08-10T18:09:25.496Z",
+      "tags": [],
+      "language": "es",
+      "image": "https://josemwarrior.github.io/assets/microblog/media/w.jpg"
+    },
     {
       "id": "https://josemwarrior.github.io/microblog/2026-08-10-repo-de-satomi-https-github-com-josemwarrior-satomi-2000/",
       "url": "https://josemwarrior.github.io/microblog/2026-08-10-repo-de-satomi-https-github-com-josemwarrior-satomi-2000/",
