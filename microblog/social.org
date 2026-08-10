@@ -1,6 +1,6 @@
-#+TITLE: My Untold Microblog
+#+TITLE: josemwarrior
 #+NICK: josemwarrior
-#+DESCRIPTION: Me gusta hacer juegos y los juegos retro.
+#+DESCRIPTION: Web personal con enlaces a mis redes, contacto, portfolio, blog y microblog.
 #+AVATAR: https://josemwarrior.github.io/assets/img/avatar-social.jpg
 #+LINK: https://josemwarrior.github.io/
 #+LANGUAGE: es

@@ -1,9 +1,9 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "My Untold Journal Microblog",
+  "title": "josemwarrior",
   "home_page_url": "https://josemwarrior.github.io/microblog/",
   "feed_url": "https://josemwarrior.github.io/microblog/feed.json",
-  "description": "Short notes, screenshots, and game development work in progress.",
+  "description": "Web personal con enlaces a mis redes, contacto, portfolio, blog y microblog.",
   "language": "es",
   "items": [
     {

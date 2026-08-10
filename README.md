@@ -1,4 +1,4 @@
-# My untold journal
+# josemwarrior
 
 Este es mi blog personal. 
 
@@ -9,7 +9,7 @@ Para testear en local:
 
 [![Gem Version](https://badge.fury.io/rb/no-style-please.svg)](https://badge.fury.io/rb/no-style-please)
 
-<img src="https://raw.githubusercontent.com/riggraz/no-style-please/master/logo.png" width="64" align="left" />A (nearly) no-CSS, fast, minimalist [Jekyll](https://jekyllrb.com/) theme.
+Web personal con enlaces a mis redes, contacto, portfolio, blog y microblog.
 Inspired by [elly's site](http://tilde.town/~elly/), expressly created for [my personal blog](https://riggraz.dev/).
 
 <h3 align="center"><a href="https://riggraz.dev/no-style-please/">Try the demo out!</a></h3>
@@ -127,4 +127,3 @@ To add a custom directory to your theme-gem, please edit the regexp in `no-style
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-

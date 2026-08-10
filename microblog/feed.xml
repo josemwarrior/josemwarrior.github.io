@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>My Untold Journal Microblog</title>
+    <title>josemwarrior</title>
     <link>https://josemwarrior.github.io/microblog/</link>
-    <description>Short notes, screenshots, and game development work in progress.</description>
+    <description>Web personal con enlaces a mis redes, contacto, portfolio, blog y microblog.</description>
     <language>es</language>
     <item>
       <title>Repo de Satomi: https://github.com/josemwarrior/satomi-2000</title>

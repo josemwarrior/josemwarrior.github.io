@@ -1,10 +1,10 @@
-title: My Untold Journal # name of the site
+title: josemwarrior # name of the site
 author: josemwarrior # name of site's author
-email: riccardo.graziosi97@gmail.com # email of site's author
+email: 23.planner.don@icloud.com # email of site's author
 url: https://josemwarrior.github.io # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if your site does not use a subpath)
 description: > # description of the site (multiple lines allowed)
-  A (nearly) no-CSS, fast, minimalist Jekyll theme.
+  Web personal con enlaces a mis redes, contacto, portfolio, blog y microblog.
 
 permalink: /:slug.html
 
@@ -16,6 +16,14 @@ collections:
     permalink: /microblog/:name/
 
 defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/img/avatar-social.jpg
+        width: 493
+        height: 492
+        alt: josemwarrior
   - scope:
       path: ""
       type: microblog
