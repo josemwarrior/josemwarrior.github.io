@@ -7,6 +7,16 @@
   "language": "es",
   "items": [
     {
+      "id": "https://josemwarrior.github.io/microblog/2026-08-10-header/",
+      "url": "https://josemwarrior.github.io/microblog/2026-08-10-header/",
+      "title": "Satomi ahora tiene un nuevo logo y doy por finalizado el proyecto.",
+      "content_text": "Satomi ahora tiene un nuevo logo y doy por finalizado el proyecto. Me quedo con el compilado y quito los fuentes del escritorio. Case closed",
+      "date_published": "2026-08-10T00:03:40.049Z",
+      "tags": [],
+      "language": "es",
+      "image": "https://josemwarrior.github.io/assets/microblog/media/header.png"
+    },
+    {
       "id": "https://josemwarrior.github.io/microblog/2026-08-10-ceramic/",
       "url": "https://josemwarrior.github.io/microblog/2026-08-10-ceramic/",
       "title": "Siempre me ha parecido hermosa la imagen del IDE con la ventana del outp",

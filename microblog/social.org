@@ -7,6 +7,16 @@
 
 * Posts
 
+** 2026-08-10T00:03:40+0000
+:PROPERTIES:
+:LANG: es
+:TAGS: 
+:END:
+
+Satomi ahora tiene un nuevo logo y doy por finalizado el proyecto. Me quedo con el compilado y quito los fuentes del escritorio. Case closed
+
+[[https://josemwarrior.github.io/assets/microblog/media/header.png]]
+
 ** 2026-08-09T22:49:31+0000
 :PROPERTIES:
 :LANG: es
