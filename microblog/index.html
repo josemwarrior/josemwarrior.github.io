@@ -30,6 +30,7 @@ permalink: /microblog/
           {{ entry.content }}
         </div>
 
+        {% comment %}The site-wide SEO image is a mapping; microblog media images are URL strings.{% endcomment %}
         {% if entry.video %}
           <div class="microblog-entry__video">
             <video
@@ -45,7 +46,7 @@ permalink: /microblog/
               <a href="{{ entry.video | escape }}">Descargar vídeo</a>
             </video>
           </div>
-        {% elsif entry.image %}
+        {% elsif entry.image and entry.image.path == nil %}
           <a href="{{ entry.url | relative_url }}" aria-label="Open {{ entry.title | default: 'microblog entry' | escape }}">
             <img
               class="microblog-entry__media"

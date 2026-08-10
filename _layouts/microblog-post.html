@@ -17,6 +17,7 @@ layout: default
     {{ content }}
   </div>
 
+  {% comment %}The site-wide SEO image is a mapping; microblog media images are URL strings.{% endcomment %}
   {% if page.video %}
     <div class="microblog-entry__video">
       <video
@@ -32,7 +33,7 @@ layout: default
         <a href="{{ page.video | escape }}">Descargar vídeo</a>
       </video>
     </div>
-  {% elsif page.image %}
+  {% elsif page.image and page.image.path == nil %}
     <img
       class="microblog-entry__media"
       src="{{ page.image | escape }}"
