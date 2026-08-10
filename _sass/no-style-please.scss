@@ -125,7 +125,7 @@ img {
 
 .home-social {
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(8, minmax(0, 1fr));
   margin-top: .9rem;
   width: 100%;
 }
@@ -174,8 +174,13 @@ img {
 
 @media (max-width: 420px) {
   .home-social__link {
-    height: 2.25rem;
-    width: 2.25rem;
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .home-social__link svg {
+    height: 1.2rem;
+    width: 1.2rem;
   }
 }
 
