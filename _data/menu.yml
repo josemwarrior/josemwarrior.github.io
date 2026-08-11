@@ -11,7 +11,7 @@ entries:
   - title: Microblog
     url: /microblog/
 
-  - title: My post
+  - title: Artículos
     post_list:
       limit: no
       show_more: false
