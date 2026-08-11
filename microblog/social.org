@@ -7,6 +7,16 @@
 
 * Posts
 
+** 2026-08-11T17:27:22+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:END:
+
+Si el mejor software de Microsoft es Excel, el segundo mejor es Access. Es una pena gordísima de que no tenga versión para mac, ni versión web. Tremendos formularios con sus bases de datos me iba a hacer
+
+[[https://josemwarrior.github.io/assets/microblog/media/access.jpeg]]
+
 ** 2026-08-11T16:41:06+0000
 :PROPERTIES:
 :LANG: es
