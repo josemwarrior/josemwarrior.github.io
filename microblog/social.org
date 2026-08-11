@@ -7,6 +7,19 @@
 
 * Posts
 
+** 2026-08-11T14:32:00+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:CLIENT: iOS
+:REPLY_TO: https://host.org-social.org/andros/social.org#2026-08-11T10:43:16+0200
+:END:
+
+[[org-social:https://host.org-social.org/andros/social.org][andros]] Realmente me hice ya una [[https://github.com/josemwarrior/satomi-2000][tool]] para sindicar contenido, aparte de publicarlo en [[https://josemwarrior.github.io/microblog/][mi microblog propio]]
+Lo reenvío a mis otras 5 rrss favoritas.
+
+[[https://i.imgur.com/zwil6qt.png]]
+
 ** 2026-08-10T18:09:25+0000
 :PROPERTIES:
 :LANG: es
