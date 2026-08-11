@@ -7,6 +7,16 @@
 
 * Posts
 
+** 2026-08-11T16:41:06+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:END:
+
+
+
+[[https://josemwarrior.github.io/assets/microblog/media/josem.png]]
+
 ** 2026-08-11T12:32:00+0000
 :PROPERTIES:
 :LANG: es
@@ -23,7 +33,7 @@ Lo reenvío a mis otras 5 rrss favoritas.
 ** 2026-08-10T18:09:25+0000
 :PROPERTIES:
 :LANG: es
-:TAGS: 
+:TAGS:
 :END:
 
 Estaría guay republicar mi contenido en un canal de Whatsapp, tiene bastante tráfico, pero WhatsApp no ofrece una forma de publica automáticamente en canales, ni siquiera la posibilidad de meter un bot en un canal y que publique por mí (como si hace Telegram).
@@ -33,7 +43,7 @@ Estaría guay republicar mi contenido en un canal de Whatsapp, tiene bastante tr
 ** 2026-08-10T00:27:03+0000
 :PROPERTIES:
 :LANG: es
-:TAGS: 
+:TAGS:
 :END:
 
 Repo de Satomi: https://github.com/josemwarrior/satomi-2000
@@ -41,7 +51,7 @@ Repo de Satomi: https://github.com/josemwarrior/satomi-2000
 ** 2026-08-10T00:03:40+0000
 :PROPERTIES:
 :LANG: es
-:TAGS: 
+:TAGS:
 :END:
 
 Satomi ahora tiene un nuevo logo y doy por finalizado el proyecto. Me quedo con el compilado y quito los fuentes del escritorio. Case closed
@@ -51,7 +61,7 @@ Satomi ahora tiene un nuevo logo y doy por finalizado el proyecto. Me quedo con 
 ** 2026-08-09T22:49:31+0000
 :PROPERTIES:
 :LANG: es
-:TAGS: 
+:TAGS:
 :END:
 
 Siempre me ha parecido hermosa la imagen del IDE con la ventana del output mostrando un gráfico sencillo, en cada tecnología nueva que voy descubriendo. No digo en broma que me parece tan hermoso que lo pondría un cuadro y lo colgaría en la pared.
@@ -61,7 +71,7 @@ Siempre me ha parecido hermosa la imagen del IDE con la ventana del output mostr
 ** 2026-08-09T22:48:29+0000
 :PROPERTIES:
 :LANG: es
-:TAGS: 
+:TAGS:
 :END:
 
 No quiero salirme de ahí (Aunque Defold me mira con ojillos desde la esquina). Quiero tener control total del juego. Es algo que vibecodeando pierdes, ganas mucha rapidez, prototipas rápido, pero pierdes control. Es por eso que renunciaré al 'agentic programming' esta vez.
@@ -69,7 +79,7 @@ No quiero salirme de ahí (Aunque Defold me mira con ojillos desde la esquina). 
 ** 2026-08-09T22:47:21+0000
 :PROPERTIES:
 :LANG: es
-:TAGS: 
+:TAGS:
 :END:
 
 Después de este miniparéntesis en el gamedev, voy a empezar un proyecto nuevo. Está vez usaré un framework nuevo, Ceramic. Es bastante similar a lo que venía usando Pixi.js, Phaser.js y a otros frameworks sin un Editor integrado.
@@ -77,7 +87,7 @@ Después de este miniparéntesis en el gamedev, voy a empezar un proyecto nuevo.
 ** 2026-08-09T22:13:21+0000
 :PROPERTIES:
 :LANG: es
-:TAGS: 
+:TAGS:
 :END:
 
 Ya he terminado la sindicación con Satomi. Ahora podré estar en multiples sitios escribiendo un solo mensaje por terminal. Me siento bastante satisfecho y orgulloso. Ha sido un proyecto que me ha llevado dos días, que sin la IA hubiese sido practicamente imposible.
@@ -85,7 +95,7 @@ Ya he terminado la sindicación con Satomi. Ahora podré estar en multiples siti
 ** 2026-08-09T21:09:40+0000
 :PROPERTIES:
 :LANG: es
-:TAGS: 
+:TAGS:
 :END:
 
 Este fue el proyecto con el que mejor me lo pasé el año pasado. Animar un personaje lowpoly en Three.js.
@@ -95,7 +105,7 @@ Este fue el proyecto con el que mejor me lo pasé el año pasado. Animar un pers
 ** 2026-08-09T19:21:55+0000
 :PROPERTIES:
 :LANG: es
-:TAGS: 
+:TAGS:
 :END:
 
 Si consigo pasar este test, ya doy por válido la versión 1.0.0 de Satomi
@@ -105,7 +115,7 @@ Si consigo pasar este test, ya doy por válido la versión 1.0.0 de Satomi
 ** 2026-08-09T18:52:05+0000
 :PROPERTIES:
 :LANG: es
-:TAGS: 
+:TAGS:
 :END:
 
 He vibecodeado una tool para sindicar contenido por todas tus rrss. En Github estoy por decir 'Que és' y 'Como se usa', ya los frontier models son mejores explicando que cualquier documentación (generada por IA) que pueda poner
@@ -115,7 +125,7 @@ He vibecodeado una tool para sindicar contenido por todas tus rrss. En Github es
 ** 2026-08-09T01:07:31+0000
 :PROPERTIES:
 :LANG: es
-:TAGS: 
+:TAGS:
 :END:
 
 Tengo ganas de jugar este experimento en Game Boy, Resident Evil: Gaiden
