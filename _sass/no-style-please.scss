@@ -125,7 +125,7 @@ img {
 
 .home-social {
   display: grid;
-  grid-template-columns: repeat(8, minmax(0, 1fr));
+  grid-template-columns: repeat(10, minmax(0, 1fr));
   margin-top: .9rem;
   width: 100%;
 }
@@ -174,13 +174,21 @@ img {
 
 @media (max-width: 420px) {
   .home-social__link {
-    height: 2rem;
-    width: 2rem;
+    border-radius: .25rem;
+    height: 2.75rem;
+    width: 100%;
   }
 
   .home-social__link svg {
-    height: 1.2rem;
-    width: 1.2rem;
+    height: 1rem;
+    width: 1rem;
+  }
+
+  .home-social__org-icon {
+    border-width: 1px;
+    font-size: .45rem;
+    height: .9rem;
+    width: 1rem;
   }
 }
 
