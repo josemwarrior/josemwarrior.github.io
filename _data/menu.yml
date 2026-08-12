@@ -5,8 +5,8 @@ entries:
   - title: About
     url: about
 
-  - title: Portfolio
-    url: portfolio.html
+  - title: Games
+    url: games
 
   - title: Microblog
     url: /microblog/
