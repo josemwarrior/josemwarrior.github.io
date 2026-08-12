@@ -16,5 +16,8 @@ entries:
       limit: no
       show_more: false
 
+  - title: Privacy Policy
+    url: privacy
+
   - title: rss
     url: feed.xml
