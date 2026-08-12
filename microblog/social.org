@@ -7,25 +7,107 @@
 
 * Posts
 
-** 2026-08-11T17:27:22+0000
+** 2026-08-09T01:07:31+0000
 :PROPERTIES:
 :LANG: es
 :TAGS:
 :END:
 
-Si el mejor software de Microsoft es Excel, el segundo mejor es Access. Es una pena gordísima de que no tenga versión para mac, ni versión web. Tremendos formularios con sus bases de datos me iba a hacer
+Tengo ganas de jugar este experimento en Game Boy, Resident Evil: Gaiden
 
-[[https://josemwarrior.github.io/assets/microblog/media/access.jpeg]]
+[[https://josemwarrior.github.io/assets/microblog/media/reg-2.jpg]]
 
-** 2026-08-11T16:41:06+0000
+** 2026-08-09T18:52:05+0000
 :PROPERTIES:
 :LANG: es
 :TAGS:
 :END:
 
+He vibecodeado una tool para sindicar contenido por todas tus rrss. En Github estoy por decir 'Que és' y 'Como se usa', ya los frontier models son mejores explicando que cualquier documentación (generada por IA) que pueda poner
 
+[[https://josemwarrior.github.io/assets/microblog/media/satomi.png]]
 
-[[https://josemwarrior.github.io/assets/microblog/media/josem.png]]
+** 2026-08-09T19:21:55+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:END:
+
+Si consigo pasar este test, ya doy por válido la versión 1.0.0 de Satomi
+
+[[https://josemwarrior.github.io/assets/microblog/media/green-alarm.gif]]
+
+** 2026-08-09T21:09:40+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:END:
+
+Este fue el proyecto con el que mejor me lo pasé el año pasado. Animar un personaje lowpoly en Three.js.
+
+[[https://files.catbox.moe/vagn0l.mp4]]
+
+** 2026-08-09T22:13:21+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:END:
+
+Ya he terminado la sindicación con Satomi. Ahora podré estar en multiples sitios escribiendo un solo mensaje por terminal. Me siento bastante satisfecho y orgulloso. Ha sido un proyecto que me ha llevado dos días, que sin la IA hubiese sido practicamente imposible.
+
+** 2026-08-09T22:47:21+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:END:
+
+Después de este miniparéntesis en el gamedev, voy a empezar un proyecto nuevo. Está vez usaré un framework nuevo, Ceramic. Es bastante similar a lo que venía usando Pixi.js, Phaser.js y a otros frameworks sin un Editor integrado.
+
+** 2026-08-09T22:48:29+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:END:
+
+No quiero salirme de ahí (Aunque Defold me mira con ojillos desde la esquina). Quiero tener control total del juego. Es algo que vibecodeando pierdes, ganas mucha rapidez, prototipas rápido, pero pierdes control. Es por eso que renunciaré al 'agentic programming' esta vez.
+
+** 2026-08-09T22:49:31+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:END:
+
+Siempre me ha parecido hermosa la imagen del IDE con la ventana del output mostrando un gráfico sencillo, en cada tecnología nueva que voy descubriendo. No digo en broma que me parece tan hermoso que lo pondría un cuadro y lo colgaría en la pared.
+
+[[https://josemwarrior.github.io/assets/microblog/media/ceramic.jpg]]
+
+** 2026-08-10T00:03:40+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:END:
+
+Satomi ahora tiene un nuevo logo y doy por finalizado el proyecto. Me quedo con el compilado y quito los fuentes del escritorio. Case closed
+
+[[https://josemwarrior.github.io/assets/microblog/media/header.png]]
+
+** 2026-08-10T00:27:03+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:END:
+
+Repo de Satomi: https://github.com/josemwarrior/satomi-2000
+
+** 2026-08-10T18:09:25+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:END:
+
+Estaría guay republicar mi contenido en un canal de Whatsapp, tiene bastante tráfico, pero WhatsApp no ofrece una forma de publica automáticamente en canales, ni siquiera la posibilidad de meter un bot en un canal y que publique por mí (como si hace Telegram).
+
+[[https://josemwarrior.github.io/assets/microblog/media/w.jpg]]
 
 ** 2026-08-11T12:32:00+0000
 :PROPERTIES:
@@ -40,104 +122,22 @@ Lo reenvío a mis otras 5 rrss favoritas.
 
 [[https://i.imgur.com/zwil6qt.png]]
 
-** 2026-08-10T18:09:25+0000
+** 2026-08-11T16:41:06+0000
 :PROPERTIES:
 :LANG: es
 :TAGS:
 :END:
 
-Estaría guay republicar mi contenido en un canal de Whatsapp, tiene bastante tráfico, pero WhatsApp no ofrece una forma de publica automáticamente en canales, ni siquiera la posibilidad de meter un bot en un canal y que publique por mí (como si hace Telegram).
 
-[[https://josemwarrior.github.io/assets/microblog/media/w.jpg]]
 
-** 2026-08-10T00:27:03+0000
+[[https://josemwarrior.github.io/assets/microblog/media/josem.png]]
+
+** 2026-08-11T17:27:22+0000
 :PROPERTIES:
 :LANG: es
 :TAGS:
 :END:
 
-Repo de Satomi: https://github.com/josemwarrior/satomi-2000
+Si el mejor software de Microsoft es Excel, el segundo mejor es Access. Es una pena gordísima de que no tenga versión para mac, ni versión web. Tremendos formularios con sus bases de datos me iba a hacer
 
-** 2026-08-10T00:03:40+0000
-:PROPERTIES:
-:LANG: es
-:TAGS:
-:END:
-
-Satomi ahora tiene un nuevo logo y doy por finalizado el proyecto. Me quedo con el compilado y quito los fuentes del escritorio. Case closed
-
-[[https://josemwarrior.github.io/assets/microblog/media/header.png]]
-
-** 2026-08-09T22:49:31+0000
-:PROPERTIES:
-:LANG: es
-:TAGS:
-:END:
-
-Siempre me ha parecido hermosa la imagen del IDE con la ventana del output mostrando un gráfico sencillo, en cada tecnología nueva que voy descubriendo. No digo en broma que me parece tan hermoso que lo pondría un cuadro y lo colgaría en la pared.
-
-[[https://josemwarrior.github.io/assets/microblog/media/ceramic.jpg]]
-
-** 2026-08-09T22:48:29+0000
-:PROPERTIES:
-:LANG: es
-:TAGS:
-:END:
-
-No quiero salirme de ahí (Aunque Defold me mira con ojillos desde la esquina). Quiero tener control total del juego. Es algo que vibecodeando pierdes, ganas mucha rapidez, prototipas rápido, pero pierdes control. Es por eso que renunciaré al 'agentic programming' esta vez.
-
-** 2026-08-09T22:47:21+0000
-:PROPERTIES:
-:LANG: es
-:TAGS:
-:END:
-
-Después de este miniparéntesis en el gamedev, voy a empezar un proyecto nuevo. Está vez usaré un framework nuevo, Ceramic. Es bastante similar a lo que venía usando Pixi.js, Phaser.js y a otros frameworks sin un Editor integrado.
-
-** 2026-08-09T22:13:21+0000
-:PROPERTIES:
-:LANG: es
-:TAGS:
-:END:
-
-Ya he terminado la sindicación con Satomi. Ahora podré estar en multiples sitios escribiendo un solo mensaje por terminal. Me siento bastante satisfecho y orgulloso. Ha sido un proyecto que me ha llevado dos días, que sin la IA hubiese sido practicamente imposible.
-
-** 2026-08-09T21:09:40+0000
-:PROPERTIES:
-:LANG: es
-:TAGS:
-:END:
-
-Este fue el proyecto con el que mejor me lo pasé el año pasado. Animar un personaje lowpoly en Three.js.
-
-[[https://files.catbox.moe/vagn0l.mp4]]
-
-** 2026-08-09T19:21:55+0000
-:PROPERTIES:
-:LANG: es
-:TAGS:
-:END:
-
-Si consigo pasar este test, ya doy por válido la versión 1.0.0 de Satomi
-
-[[https://josemwarrior.github.io/assets/microblog/media/green-alarm.gif]]
-
-** 2026-08-09T18:52:05+0000
-:PROPERTIES:
-:LANG: es
-:TAGS:
-:END:
-
-He vibecodeado una tool para sindicar contenido por todas tus rrss. En Github estoy por decir 'Que és' y 'Como se usa', ya los frontier models son mejores explicando que cualquier documentación (generada por IA) que pueda poner
-
-[[https://josemwarrior.github.io/assets/microblog/media/satomi.png]]
-
-** 2026-08-09T01:07:31+0000
-:PROPERTIES:
-:LANG: es
-:TAGS:
-:END:
-
-Tengo ganas de jugar este experimento en Game Boy, Resident Evil: Gaiden
-
-[[https://josemwarrior.github.io/assets/microblog/media/reg-2.jpg]]
+[[https://josemwarrior.github.io/assets/microblog/media/access.jpeg]]
