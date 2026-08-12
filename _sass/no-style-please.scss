@@ -170,6 +170,7 @@ img {
   display: grid;
   grid-template-columns: repeat(10, minmax(0, 1fr));
   margin-top: 0.9rem;
+  row-gap: 0.35rem;
   width: 100%;
 }
 
