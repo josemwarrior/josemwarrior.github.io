@@ -167,3 +167,11 @@ Alguien aleatoriamente crea un nuevo hit (inesperado, ninguno de los últimos hi
 
 
 [[https://josemwarrior.github.io/assets/microblog/media/griffith.jpg]]
+
+** 2026-08-13T16:33:49+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:END:
+
+Bundle de itch.io con más de 100 juegos por solo 9€, para ayudar a la gente de la industria que le afectaron los despidos masivos https://itch.io/b/3802/game-industry-hardship-fund
