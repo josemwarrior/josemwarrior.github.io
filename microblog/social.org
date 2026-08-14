@@ -205,3 +205,11 @@ Inglés para la informática. Año 1997. "PC = ordenador personal, mouse = rató
 "Si fuese millonario..." me pillaba este libro y este móvil, y le dedicaba el próximo mes a ello, a hacerle un jueguito. Por los viejos tiempos 😭
 
 [[https://josemwarrior.github.io/assets/microblog/media/frame-73.png]]
+
+** 2026-08-14T00:10:09+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:END:
+
+Microsoft Access, JDK 6 con Sony Ericsson Java ME SDK, Oracle Forms 6 (esto último es por trabajo no estoy tan loco 🙄)... demasiadas excusas para no tener mi propio Windows XP en local...
