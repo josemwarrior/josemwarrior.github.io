@@ -213,3 +213,13 @@ Inglés para la informática. Año 1997. "PC = ordenador personal, mouse = rató
 :END:
 
 Microsoft Access, JDK 6 con Sony Ericsson Java ME SDK, Oracle Forms 6 (esto último es por trabajo no estoy tan loco 🙄)... demasiadas excusas para no tener mi propio Windows XP en local...
+
+** 2026-08-16T14:35:59+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:END:
+
+Que genial es tener amigos que sepan de todo. Ya tengo mi XP virtualizado con mi Access, mi Oracle y mi compilador para juegos de móvil. Sin ti no hubiera sido posible, Sergio ❤️
+
+[[https://josemwarrior.github.io/assets/microblog/media/2026-08-16-16-32-49.jpg]]
