@@ -7,6 +7,16 @@
   "language": "es",
   "items": [
     {
+      "id": "https://josemwarrior.github.io/microblog/2026-08-17-2026-08-17-at-02-40-55/",
+      "url": "https://josemwarrior.github.io/microblog/2026-08-17-2026-08-17-at-02-40-55/",
+      "title": "Gracias a la IA, han portado nativamente el emulador PCSX2 a arquitectur",
+      "content_text": "Gracias a la IA, han portado nativamente el emulador PCSX2 a arquitectura ARM64. Eso quiere decir que puedo jugar con fluidez en mi Macbook Pro M1 de 2020. El ARMSX2 es una translación mecánica directa de un tipo de ensamblador a otro. Teniendo PS1 y PS2 nativos no necesito más",
+      "date_published": "2026-08-17T01:29:03.202Z",
+      "tags": [],
+      "language": "es",
+      "image": "https://josemwarrior.github.io/assets/microblog/media/2026-08-17-at-02-40-55.webp"
+    },
+    {
       "id": "https://josemwarrior.github.io/microblog/2026-08-16-2026-08-16-16-32-49/",
       "url": "https://josemwarrior.github.io/microblog/2026-08-16-2026-08-16-16-32-49/",
       "title": "Que genial es tener amigos que sepan de todo.",
