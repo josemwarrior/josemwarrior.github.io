@@ -7,6 +7,26 @@
   "language": "es",
   "items": [
     {
+      "id": "https://josemwarrior.github.io/microblog/2026-08-21-k610i/",
+      "url": "https://josemwarrior.github.io/microblog/2026-08-21-k610i/",
+      "title": "Ya me llegó.",
+      "content_text": "Ya me llegó. Aparentemente funcionan las llamadas y los SMS, pero no los datos. Al parecer Vodafone apagó la red 3G hace un par de años. Parece que Orange si tiene todavía red 2G (en teoría), así que igual con la tontería me cambio de operadora.",
+      "date_published": "2026-08-21T17:52:08.816Z",
+      "tags": [],
+      "language": "es",
+      "image": "https://josemwarrior.github.io/assets/microblog/media/k610i.jpg"
+    },
+    {
+      "id": "https://josemwarrior.github.io/microblog/2026-08-21-respuesta-a-andros-sobre-llm/",
+      "url": "https://josemwarrior.github.io/microblog/2026-08-21-respuesta-a-andros-sobre-llm/",
+      "title": "Respuesta a andros sobre LLM",
+      "content_text": "Más que los ports de juegos nativos, lo que me estalla la cabeza, es que ya están portando drivers!!\n\n![Imagen del port de drivers](https://i.imgur.com/Te7aQ3G.jpeg)\n\n[Respuesta original](https://preview.org-social.org/?post=https%3A%2F%2Fjosemwarrior.github.io%2Fmicroblog%2Fsocial.org%232026-08-21T17%3A36%3A29%2B0000)",
+      "date_published": "2026-08-21T17:36:29.000Z",
+      "tags": [],
+      "language": "es",
+      "image": "https://i.imgur.com/Te7aQ3G.jpeg"
+    },
+    {
       "id": "https://josemwarrior.github.io/microblog/2026-08-17-2026-08-17-at-02-40-55/",
       "url": "https://josemwarrior.github.io/microblog/2026-08-17-2026-08-17-at-02-40-55/",
       "title": "Gracias a la IA, han portado nativamente el emulador PCSX2 a arquitectur",
@@ -59,7 +79,7 @@
       "id": "https://josemwarrior.github.io/microblog/2026-08-13-respuesta-a-andros-sobre-despidos/",
       "url": "https://josemwarrior.github.io/microblog/2026-08-13-respuesta-a-andros-sobre-despidos/",
       "title": "Respuesta a andros sobre despidos",
-      "content_text": "Pues, pues... está todo mal jajaja. Especialmente el sector de las TIC y la industria AAA de los videojuegos han sufrido despidos masivos, que han ido in crescendo. En los ultimos 4 años se han despedido a unos [[https://godisageek.com/2026/07/games-industry-layoffs-forecast-2026/#:~:text=Its%20figures%20combine%20publicly%20confirmed%20cuts%2C%20nonpublic,current%20projection%20remains%20below%20the%202024%20total.][~54.000 trabajadores]]. Pero tampoco están mejor los indies que no han cosigo debutar, y no han recuperado el tiempo de desarrollo, [[https://games-stats.com/blog/Steam_in_Q12026/][el 50% de los juegos de Steam ha ganado menos de 290$]]. Vivimos un tiempo maravilloso en el que te puedes dedicar a lo que sea, pero eso no quiere decir que puedas vivir de ello\n\n[Respuesta original](https://preview.org-social.org/?post=https%3A%2F%2Fjosemwarrior.github.io%2Fmicroblog%2Fsocial.org%232026-08-13T20%3A00%3A00%2B0200)",
+      "content_text": "Pues, pues... está todo mal jajaja. Especialmente el sector de las TIC y la industria AAA de los videojuegos han sufrido despidos masivos, que han ido in crescendo. En los ultimos 4 años se han despedido a unos [~54.000 trabajadores](https://godisageek.com/2026/07/games-industry-layoffs-forecast-2026/#:~:text=Its%20figures%20combine%20publicly%20confirmed%20cuts%2C%20nonpublic,current%20projection%20remains%20below%20the%202024%20total.). Pero tampoco están mejor los indies que no han cosigo debutar, y no han recuperado el tiempo de desarrollo, [el 50% de los juegos de Steam ha ganado menos de 290$](https://games-stats.com/blog/Steam_in_Q12026/). Vivimos un tiempo maravilloso en el que te puedes dedicar a lo que sea, pero eso no quiere decir que puedas vivir de ello\n\n[Respuesta original](https://preview.org-social.org/?post=https%3A%2F%2Fjosemwarrior.github.io%2Fmicroblog%2Fsocial.org%232026-08-13T20%3A00%3A00%2B0200)",
       "date_published": "2026-08-13T18:00:00.000Z",
       "tags": [],
       "language": "es"

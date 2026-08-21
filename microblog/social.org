@@ -245,3 +245,13 @@ Gracias a la IA, han portado nativamente el emulador PCSX2 a arquitectura ARM64.
 Más que los ports de juegos nativos, lo que me estalla la cabeza, es que ya están portando drivers!!
 
 [[https://i.imgur.com/Te7aQ3G.jpeg]]
+
+** 2026-08-21T17:52:08+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:END:
+
+Ya me llegó. Aparentemente funcionan las llamadas y los SMS, pero no los datos. Al parecer Vodafone apagó la red 3G hace un par de años. Parece que Orange si tiene todavía red 2G (en teoría), así que igual con la tontería me cambio de operadora.
+
+[[https://josemwarrior.github.io/assets/microblog/media/k610i.jpg]]
