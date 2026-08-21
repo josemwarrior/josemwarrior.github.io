@@ -233,3 +233,15 @@ Que genial es tener amigos que sepan de todo. Ya tengo mi XP virtualizado con mi
 Gracias a la IA, han portado nativamente el emulador PCSX2 a arquitectura ARM64. Eso quiere decir que puedo jugar con fluidez en mi Macbook Pro M1 de 2020. El ARMSX2 es una translación mecánica directa de un tipo de ensamblador a otro. Teniendo PS1 y PS2 nativos no necesito más
 
 [[https://josemwarrior.github.io/assets/microblog/media/2026-08-17-at-02-40-55.webp]]
+
+** 2026-08-21T17:36:29+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:CLIENT: iOS
+:REPLY_TO: https://host.org-social.org/andros/social.org#2026-08-20T10:16:29+0200
+:END:
+
+Más que los ports de juegos nativos, lo que me estalla la cabeza, es que ya están portando drivers!!
+
+[[https://i.imgur.com/Te7aQ3G.jpeg]]
