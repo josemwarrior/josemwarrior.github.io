@@ -255,3 +255,13 @@ Más que los ports de juegos nativos, lo que me estalla la cabeza, es que ya est
 Ya me llegó. Aparentemente funcionan las llamadas y los SMS, pero no los datos. Al parecer Vodafone apagó la red 3G hace un par de años. Parece que Orange si tiene todavía red 2G (en teoría), así que igual con la tontería me cambio de operadora.
 
 [[https://josemwarrior.github.io/assets/microblog/media/k610i.jpg]]
+
+** 2026-09-05T11:24:10+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:END:
+
+Nuevo proyecto con nuevo IDE (Lite-XL), nuevo lenguaje (Haxe) y nuevo engine (Ceramic). Esta vez trataré de usar lo menos posible (0%) la IA. Quiero tener control total del proyecto, poseerlo y eso es algo que la IA no me va a dar
+
+[[https://i.imgur.com/AC6v7GN.jpeg]]
