@@ -97,7 +97,7 @@ Satomi ahora tiene un nuevo logo y doy por finalizado el proyecto. Me quedo con 
 :TAGS:
 :END:
 
-Repo de Satomi: https://github.com/josemwarrior/satomi-2000
+Repo de Satomi: [[https://github.com/josemwarrior/satomi-2000][https://github.com/josemwarrior/satomi-2000]]
 
 ** 2026-08-10T18:09:25+0000
 :PROPERTIES:
@@ -174,7 +174,7 @@ Alguien aleatoriamente crea un nuevo hit (inesperado, ninguno de los últimos hi
 :TAGS:
 :END:
 
-Bundle de itch.io con más de 100 juegos por solo 9€, para ayudar a la gente de la industria que le afectaron los despidos masivos https://itch.io/b/3802/game-industry-hardship-fund
+Bundle de itch.io con más de 100 juegos por solo 9€, para ayudar a la gente de la industria que le afectaron los despidos masivos [[https://itch.io/b/3802/game-industry-hardship-fund][https://itch.io/b/3802/game-industry-hardship-fund]]
 
 ** 2026-08-13T18:00:00+0000
 :PROPERTIES:
@@ -273,3 +273,11 @@ Nuevo proyecto con nuevo IDE (Lite-XL), nuevo lenguaje (Haxe) y nuevo engine (Ce
 :END:
 
 Pero gracias a GPT A6TRA si que he podido preparar Lite-XL con un tema nuevo, formateo de Haxe on-save, autocompletado de Ceramic, navegación de las definiciones con F12, buildear y lanzar con un atajo, conectar esa app a la pestaña Console, y todo en un suspiro.
+
+** 2026-09-05T11:35:38+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:END:
+
+Igual doy un paso atrás de última hora, quizás lo inteligente sería usar lua, lua con Solar2D o lua con Amulet, porque lua es uno de los mejores lenguajes jamás creados [[https://if-not-nil.github.io/no-the-moon/][https://if-not-nil.github.io/no-the-moon/]]
