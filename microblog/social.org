@@ -265,3 +265,11 @@ Ya me llegó. Aparentemente funcionan las llamadas y los SMS, pero no los datos.
 Nuevo proyecto con nuevo IDE (Lite-XL), nuevo lenguaje (Haxe) y nuevo engine (Ceramic). Esta vez trataré de usar lo menos posible (0%) la IA. Quiero tener control total del proyecto, poseerlo y eso es algo que la IA no me va a dar
 
 [[https://i.imgur.com/AC6v7GN.jpeg]]
+
+** 2026-09-05T11:29:09+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:END:
+
+Pero gracias a GPT A6TRA si que he podido preparar Lite-XL con un tema nuevo, formateo de Haxe on-save, autocompletado de Ceramic, navegación de las definiciones con F12, buildear y lanzar con un atajo, conectar esa app a la pestaña Console, y todo en un suspiro.
