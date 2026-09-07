@@ -6,6 +6,13 @@
     <description>Short notes, screenshots, and game development work in progress.</description>
     <language>es</language>
     <item>
+      <title>Maldita sea, no se para que me hablaron ayer del hot reload en Phaser.js</title>
+      <link>https://josemwarrior.github.io/microblog/2026-09-07-lua-love2d/</link>
+      <guid isPermaLink="true">https://josemwarrior.github.io/microblog/2026-09-07-lua-love2d/</guid>
+      <pubDate>Mon, 07 Sep 2026 16:59:54 GMT</pubDate>
+      <description>&lt;p&gt;Maldita sea, no se para que me hablaron ayer del hot reload en Phaser.js, lo he probado con Lua y Love2D, y no hay vuelta atrás, es un life changer esto. Ver los cambios en directo sin tener que hacer un &amp;apos;run&amp;apos; del proyecto ❤️&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://josemwarrior.github.io/assets/microblog/media/lua-love2d.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Igual doy un paso atrás de última hora, quizás lo inteligente sería usar</title>
       <link>https://josemwarrior.github.io/microblog/2026-09-05-igual-doy-un-paso-atras-de-ultima-hora-quizas-lo-inteligente-seria-usar/</link>
       <guid isPermaLink="true">https://josemwarrior.github.io/microblog/2026-09-05-igual-doy-un-paso-atras-de-ultima-hora-quizas-lo-inteligente-seria-usar/</guid>

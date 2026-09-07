@@ -7,6 +7,16 @@
   "language": "es",
   "items": [
     {
+      "id": "https://josemwarrior.github.io/microblog/2026-09-07-lua-love2d/",
+      "url": "https://josemwarrior.github.io/microblog/2026-09-07-lua-love2d/",
+      "title": "Maldita sea, no se para que me hablaron ayer del hot reload en Phaser.js",
+      "content_text": "Maldita sea, no se para que me hablaron ayer del hot reload en Phaser.js, lo he probado con Lua y Love2D, y no hay vuelta atrás, es un life changer esto. Ver los cambios en directo sin tener que hacer un 'run' del proyecto ❤️",
+      "date_published": "2026-09-07T16:59:54.788Z",
+      "tags": [],
+      "language": "es",
+      "image": "https://josemwarrior.github.io/assets/microblog/media/lua-love2d.png"
+    },
+    {
       "id": "https://josemwarrior.github.io/microblog/2026-09-05-igual-doy-un-paso-atras-de-ultima-hora-quizas-lo-inteligente-seria-usar/",
       "url": "https://josemwarrior.github.io/microblog/2026-09-05-igual-doy-un-paso-atras-de-ultima-hora-quizas-lo-inteligente-seria-usar/",
       "title": "Igual doy un paso atrás de última hora, quizás lo inteligente sería usar",

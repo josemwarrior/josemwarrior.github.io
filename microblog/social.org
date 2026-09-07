@@ -281,3 +281,13 @@ Pero gracias a GPT A6TRA si que he podido preparar Lite-XL con un tema nuevo, fo
 :END:
 
 Igual doy un paso atrás de última hora, quizás lo inteligente sería usar lua, lua con Solar2D o lua con Amulet, porque lua es uno de los mejores lenguajes jamás creados [[https://if-not-nil.github.io/no-the-moon/][https://if-not-nil.github.io/no-the-moon/]]
+
+** 2026-09-07T16:59:54+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:END:
+
+Maldita sea, no se para que me hablaron ayer del hot reload en Phaser.js, lo he probado con Lua y Love2D, y no hay vuelta atrás, es un life changer esto. Ver los cambios en directo sin tener que hacer un 'run' del proyecto ❤️
+
+[[https://josemwarrior.github.io/assets/microblog/media/lua-love2d.png]]
