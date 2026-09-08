@@ -7,6 +7,16 @@
   "language": "es",
   "items": [
     {
+      "id": "https://josemwarrior.github.io/microblog/2026-09-08-r8dskp3/",
+      "url": "https://josemwarrior.github.io/microblog/2026-09-08-r8dskp3/",
+      "title": "⚠️Cerrado temporalmente por mantenimiento ⚠️",
+      "content_text": "⚠️Cerrado temporalmente por mantenimiento ⚠️",
+      "date_published": "2026-09-08T06:19:17.541Z",
+      "tags": [],
+      "language": "es",
+      "image": "https://i.imgur.com/R8dSKp3.jpeg"
+    },
+    {
       "id": "https://josemwarrior.github.io/microblog/2026-09-07-lua-love2d/",
       "url": "https://josemwarrior.github.io/microblog/2026-09-07-lua-love2d/",
       "title": "Maldita sea, no se para que me hablaron ayer del hot reload en Phaser.js",
