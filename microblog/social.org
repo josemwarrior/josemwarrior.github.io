@@ -301,3 +301,13 @@ Maldita sea, no se para que me hablaron ayer del hot reload en Phaser.js, lo he 
 ⚠️Cerrado temporalmente por mantenimiento ⚠️
 
 [[https://i.imgur.com/R8dSKp3.jpeg]]
+
+** 2026-09-15T13:31:49+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:END:
+
+Podría fabricar mi próximo juego directamente con Haxe+Ceramic, son muy muy muy similares a Typescript+Pixi.js (que es donde tengo experiencia). Pero quiero darle una oportunidad a lua+löve2D, quiero vivir de primera mano que es eso de solo convivir con funciones y tablas, un diseño orientado a datos en lugar de absurdos patrones orientado a objetos. El proceso es más lento, pero a largo plazo saldré ganando en velocidad de iteración. Así que en un timpo Lua observará a Ceramic desde la table :P
+
+[[https://josemwarrior.github.io/assets/microblog/media/exec-ae227dd2-f915-4aae-9e8e-5eaedea59769.png]]

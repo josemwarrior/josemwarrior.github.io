@@ -7,6 +7,16 @@
   "language": "es",
   "items": [
     {
+      "id": "https://josemwarrior.github.io/microblog/2026-09-15-exec-ae227dd2-f915-4aae-9e8e-5eaedea59769/",
+      "url": "https://josemwarrior.github.io/microblog/2026-09-15-exec-ae227dd2-f915-4aae-9e8e-5eaedea59769/",
+      "title": "Podría fabricar mi próximo juego directamente con Haxe+Ceramic, son muy",
+      "content_text": "Podría fabricar mi próximo juego directamente con Haxe+Ceramic, son muy muy muy similares a Typescript+Pixi.js (que es donde tengo experiencia). Pero quiero darle una oportunidad a lua+löve2D, quiero vivir de primera mano que es eso de solo convivir con funciones y tablas, un diseño orientado a datos en lugar de absurdos patrones orientado a objetos. El proceso es más lento, pero a largo plazo saldré ganando en velocidad de iteración. Así que en un timpo Lua observará a Ceramic desde la table :P",
+      "date_published": "2026-09-15T13:31:49.979Z",
+      "tags": [],
+      "language": "es",
+      "image": "https://josemwarrior.github.io/assets/microblog/media/exec-ae227dd2-f915-4aae-9e8e-5eaedea59769.png"
+    },
+    {
       "id": "https://josemwarrior.github.io/microblog/2026-09-08-r8dskp3/",
       "url": "https://josemwarrior.github.io/microblog/2026-09-08-r8dskp3/",
       "title": "⚠️Cerrado temporalmente por mantenimiento ⚠️",
