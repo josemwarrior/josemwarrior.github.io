@@ -8,6 +8,9 @@ description: > # description of the site (multiple lines allowed)
 
 permalink: /:slug.html
 
+include:
+  - .well-known
+
 # Satomi writes short updates to this collection. Layout, styling, and the
 # public index remain owned by this Jekyll site.
 collections:
