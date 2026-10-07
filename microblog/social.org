@@ -311,3 +311,13 @@ Maldita sea, no se para que me hablaron ayer del hot reload en Phaser.js, lo he 
 Podría fabricar mi próximo juego directamente con Haxe+Ceramic, son muy muy muy similares a Typescript+Pixi.js (que es donde tengo experiencia). Pero quiero darle una oportunidad a lua+löve2D, quiero vivir de primera mano que es eso de solo convivir con funciones y tablas, un diseño orientado a datos en lugar de absurdos patrones orientado a objetos. El proceso es más lento, pero a largo plazo saldré ganando en velocidad de iteración. Así que en un timpo Lua observará a Ceramic desde la table :P
 
 [[https://josemwarrior.github.io/assets/microblog/media/exec-ae227dd2-f915-4aae-9e8e-5eaedea59769.png]]
+
+** 2026-10-07T13:10:28+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:END:
+
+Quedan 9 días para la Ludumdare. No me la voy a perder porque nunca me arrepiento de hacerla. Mi catálogo de juegos 100% originales es un poco basurilla, y por otro lado tengo muchos prototipos sin terminar, así que tengo dos tareas pendientes, aprender a terminarlos y mejorarlos
+
+[[https://josemwarrior.github.io/assets/microblog/media/frame-11.png]]
