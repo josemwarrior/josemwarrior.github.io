@@ -321,3 +321,12 @@ Podría fabricar mi próximo juego directamente con Haxe+Ceramic, son muy muy mu
 Quedan 9 días para la Ludumdare. No me la voy a perder porque nunca me arrepiento de hacerla. Mi catálogo de juegos 100% originales es un poco basurilla, y por otro lado tengo muchos prototipos sin terminar, así que tengo dos tareas pendientes, aprender a terminarlos y mejorarlos
 
 [[https://josemwarrior.github.io/assets/microblog/media/frame-11.png]]
+
+** 2026-10-08T14:33:10+0200
+:PROPERTIES:
+:LANG: en
+:CLIENT: iOS
+:REPLY_TO: https://host.org-social.org/andros/social.org#2026-10-07T18:06:02+0200
+:END:
+
+Si lo tienes a mano, me gustaría probarlo 😊
