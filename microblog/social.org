@@ -330,3 +330,10 @@ Quedan 9 días para la Ludumdare. No me la voy a perder porque nunca me arrepien
 :END:
 
 Si lo tienes a mano, me gustaría probarlo 😊
+
+** 2026-10-09T00:41:28+0200
+:PROPERTIES:
+:CLIENT: iOS
+:REPLY_TO: https://codeberg.org/holl/holl-social/raw/branch/main/social.org#2026-10-04T18:52:02+0200
+:MOOD: 😮
+:END:
