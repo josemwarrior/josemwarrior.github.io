@@ -321,3 +321,13 @@ Podría fabricar mi próximo juego directamente con Haxe+Ceramic, son muy muy mu
 Quedan 9 días para la Ludumdare. No me la voy a perder porque nunca me arrepiento de hacerla. Mi catálogo de juegos 100% originales es un poco basurilla, y por otro lado tengo muchos prototipos sin terminar, así que tengo dos tareas pendientes, aprender a terminarlos y mejorarlos
 
 [[https://josemwarrior.github.io/assets/microblog/media/frame-11.png]]
+
+** 2026-10-17T03:51:34+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:END:
+
+Desde los cavernícolas a los mechas, pasando por el lenguaje morse, he descartado varias ideas de 'Old Tech', hasta encontrar algo más interesante. No tiene mucho de 'Tech', pero es lo mejor que he encontrado como juego en todos los sentidos. 'Mañana' empiezo con ganas #ld60
+
+[[https://josemwarrior.github.io/assets/microblog/media/2026-10-16-23-46-49.jpg]]
