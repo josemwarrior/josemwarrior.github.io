@@ -354,3 +354,13 @@ Desde los cavernícolas a los mechas, pasando por el lenguaje morse, he descarta
 :REPLY_TO: https://codeberg.org/holl/holl-social/raw/branch/main/social.org#2026-10-16T20:28:36+0200
 :MOOD: ❤️
 :END:
+
+** 2026-10-18T22:54:41+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:END:
+
+Terminada la ludum, me siento bastante satisfecho esta vez, he manejado mejor el estrés que otras veces, siento que voy mejorando mis habilidades como diseñador de juegos, como un niño que poco a poco ve mejorar sus dibujos [[https://ldjam.com/events/ludum-dare/60/forgotten-tech][https://ldjam.com/events/ludum-dare/60/forgotten-tech]]
+
+[[https://josemwarrior.github.io/assets/microblog/media/cover.png]]
