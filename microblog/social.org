@@ -347,3 +347,10 @@ Si lo tienes a mano, me gustaría probarlo 😊
 Desde los cavernícolas a los mechas, pasando por el lenguaje morse, he descartado varias ideas de 'Old Tech', hasta encontrar algo más interesante. No tiene mucho de 'Tech', pero es lo mejor que he encontrado como juego en todos los sentidos. 'Mañana' empiezo con ganas #ld60
 
 [[https://josemwarrior.github.io/assets/microblog/media/2026-10-16-23-46-49.jpg]]
+
+** 2026-10-18T06:37:52+0200
+:PROPERTIES:
+:CLIENT: iOS
+:REPLY_TO: https://codeberg.org/holl/holl-social/raw/branch/main/social.org#2026-10-16T20:28:36+0200
+:MOOD: ❤️
+:END:
