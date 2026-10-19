@@ -364,3 +364,10 @@ Desde los cavernícolas a los mechas, pasando por el lenguaje morse, he descarta
 Terminada la ludum, me siento bastante satisfecho esta vez, he manejado mejor el estrés que otras veces, siento que voy mejorando mis habilidades como diseñador de juegos, como un niño que poco a poco ve mejorar sus dibujos [[https://ldjam.com/events/ludum-dare/60/forgotten-tech][https://ldjam.com/events/ludum-dare/60/forgotten-tech]]
 
 [[https://josemwarrior.github.io/assets/microblog/media/cover.png]]
+
+** 2026-10-19T11:49:37+0200
+:PROPERTIES:
+:CLIENT: iOS
+:REPLY_TO: https://host.org-social.org/andros/social.org#2026-10-19T10:28:16+0200
+:MOOD: ❤️
+:END:
