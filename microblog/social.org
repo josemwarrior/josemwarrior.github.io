@@ -371,3 +371,12 @@ Terminada la ludum, me siento bastante satisfecho esta vez, he manejado mejor el
 :REPLY_TO: https://host.org-social.org/andros/social.org#2026-10-19T10:28:16+0200
 :MOOD: ❤️
 :END:
+
+** 2026-10-19T15:58:31+0200
+:PROPERTIES:
+:LANG: en
+:CLIENT: iOS
+:REPLY_TO: https://host.org-social.org/andros/social.org#2026-10-19T10:28:16+0200
+:END:
+
+¿Conseguiste superarlo y ver el final? Gracias por jugar
