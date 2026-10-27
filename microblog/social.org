@@ -387,3 +387,10 @@ Terminada la ludum, me siento bastante satisfecho esta vez, he manejado mejor el
 :REPLY_TO: https://host.org-social.org/org-social/social.org#2026-10-21T13:12:55+0200
 :MOOD: ❤️
 :END:
+
+** 2026-10-27T21:58:14+0100
+:PROPERTIES:
+:CLIENT: iOS
+:REPLY_TO: https://files.malenfant.net/public.php/dav/files/Ss6PFWMqysg37St#2026-10-23T15:23:10-0700
+:MOOD: ❤️
+:END:
