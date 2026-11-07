@@ -402,3 +402,13 @@ Terminada la ludum, me siento bastante satisfecho esta vez, he manejado mejor el
 :END:
 
 No minusvalores aquello que te inspira. [[https://defold.com/2020/05/31/The-Defold-engine-code-style/][Defold es tan liviano y crea compilados tan óptimos]] simplemente porque sus creadores se sintieron inspirados al leer como [[https://www.gamedeveloper.com/design/gdc-i-god-of-war-i-how-the-left-and-right-brain-learned-to-love-one-another][los ingenieros de God of War crearon un ejecutable de 1,5 MB]]
+
+** 2026-11-07T21:42:39+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:END:
+
+Desde hace unas semanas trato de cavilar sobre mi postura ante la IA, ¿es buena para hacer juegos o es mala? No tengo ninguna objeción moral con el uso de esta. Hasta ahora mi postura solo vacilaba por la imposibilidad de crear un buen juego si no puedes controlar todo, es decir, como con la IA no puedes controlarlo todo, no puedes hacer un buen juego. Pero los modelos de frontera actuales son muy buenos manejando grandes repositorios de código, incluso ¿mejor que yo? Hace poco me di cuenta de que llevar un ritmo lento haciendo el juego me permitía ver más cosas, creía que estar más en contacto con él me permitía ver más detalles. Pero creo que me estaba autosaboteando, darme cuenta de esas cosas, no dependía de escribir yo mismo el código (a fin de cuentas, Miyamoto no picaba el código él mismo y se daba cuenta de muchas cosas). Nada me impide parametrizar todo eso y darle el feel que yo quiera. 
+
+Antes la IA se quedaba enroscada cuando no podía solucionar algo, ahora es muy buena solucionando bugs y cosas, no he encontrado nada que no pueda resolver. Me estoy quedando sin argumentos para no usarla.
