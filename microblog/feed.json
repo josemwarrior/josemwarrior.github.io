@@ -7,6 +7,16 @@
   "language": "es",
   "items": [
     {
+      "id": "https://josemwarrior.github.io/microblog/2026-11-07-no-minusvalores-aquello-que-te-inspira/",
+      "url": "https://josemwarrior.github.io/microblog/2026-11-07-no-minusvalores-aquello-que-te-inspira/",
+      "title": "No minusvalores aquello que te inspira.",
+      "content_text": "No minusvalores aquello que te inspira. Defold es tan liviano y crea compilados tan óptimos (https://defold.com/2020/05/31/The-Defold-engine-code-style/) simplemente porque sus creadores se sintieron inspirados al leer como los ingenieros de God of War crearon un ejecutable de 1,5 MB (https://www.gamedeveloper.com/design/gdc-i-god-of-war-i-how-the-left-and-right-brain-learned-to-love-one-another)",
+      "date_published": "2026-11-07T15:37:35.943Z",
+      "tags": [],
+      "language": "es",
+      "content_html": "<p>No minusvalores aquello que te inspira. <a href=\"https://defold.com/2020/05/31/The-Defold-engine-code-style/\">Defold es tan liviano y crea compilados tan óptimos</a> simplemente porque sus creadores se sintieron inspirados al leer como <a href=\"https://www.gamedeveloper.com/design/gdc-i-god-of-war-i-how-the-left-and-right-brain-learned-to-love-one-another\">los ingenieros de God of War crearon un ejecutable de 1,5 MB</a></p>"
+    },
+    {
       "id": "https://josemwarrior.github.io/microblog/2026-10-19-cover/",
       "url": "https://josemwarrior.github.io/microblog/2026-10-19-cover/",
       "title": "Terminada la ludum, me siento bastante satisfecho esta vez, he manejado",
@@ -108,10 +118,11 @@
       "id": "https://josemwarrior.github.io/microblog/2026-08-21-respuesta-a-andros-sobre-llm/",
       "url": "https://josemwarrior.github.io/microblog/2026-08-21-respuesta-a-andros-sobre-llm/",
       "title": "Respuesta a andros sobre LLM",
-      "content_text": "Más que los ports de juegos nativos, lo que me estalla la cabeza, es que ya están portando drivers!!\n\n![Imagen del port de drivers](https://i.imgur.com/Te7aQ3G.jpeg)\n\n[Respuesta original](https://preview.org-social.org/?post=https%3A%2F%2Fjosemwarrior.github.io%2Fmicroblog%2Fsocial.org%232026-08-21T17%3A36%3A29%2B0000)",
+      "content_text": "Más que los ports de juegos nativos, lo que me estalla la cabeza, es que ya están portando drivers!!\n\n![Imagen del port de drivers](https://i.imgur.com/Te7aQ3G.jpeg)\n\nRespuesta original (https://preview.org-social.org/?post=https%3A%2F%2Fjosemwarrior.github.io%2Fmicroblog%2Fsocial.org%232026-08-21T17%3A36%3A29%2B0000)",
       "date_published": "2026-08-21T17:36:29.000Z",
       "tags": [],
       "language": "es",
+      "content_html": "<p>Más que los ports de juegos nativos, lo que me estalla la cabeza, es que ya están portando drivers!!\n\n![Imagen del port de drivers](https://i.imgur.com/Te7aQ3G.jpeg)\n\n<a href=\"https://preview.org-social.org/?post=https%3A%2F%2Fjosemwarrior.github.io%2Fmicroblog%2Fsocial.org%232026-08-21T17%3A36%3A29%2B0000\">Respuesta original</a></p>",
       "image": "https://i.imgur.com/Te7aQ3G.jpeg"
     },
     {
@@ -167,10 +178,11 @@
       "id": "https://josemwarrior.github.io/microblog/2026-08-13-respuesta-a-andros-sobre-despidos/",
       "url": "https://josemwarrior.github.io/microblog/2026-08-13-respuesta-a-andros-sobre-despidos/",
       "title": "Respuesta a andros sobre despidos",
-      "content_text": "Pues, pues... está todo mal jajaja. Especialmente el sector de las TIC y la industria AAA de los videojuegos han sufrido despidos masivos, que han ido in crescendo. En los ultimos 4 años se han despedido a unos [~54.000 trabajadores](https://godisageek.com/2026/07/games-industry-layoffs-forecast-2026/#:~:text=Its%20figures%20combine%20publicly%20confirmed%20cuts%2C%20nonpublic,current%20projection%20remains%20below%20the%202024%20total.). Pero tampoco están mejor los indies que no han cosigo debutar, y no han recuperado el tiempo de desarrollo, [el 50% de los juegos de Steam ha ganado menos de 290$](https://games-stats.com/blog/Steam_in_Q12026/). Vivimos un tiempo maravilloso en el que te puedes dedicar a lo que sea, pero eso no quiere decir que puedas vivir de ello\n\n[Respuesta original](https://preview.org-social.org/?post=https%3A%2F%2Fjosemwarrior.github.io%2Fmicroblog%2Fsocial.org%232026-08-13T20%3A00%3A00%2B0200)",
+      "content_text": "Pues, pues... está todo mal jajaja. Especialmente el sector de las TIC y la industria AAA de los videojuegos han sufrido despidos masivos, que han ido in crescendo. En los ultimos 4 años se han despedido a unos ~54.000 trabajadores (https://godisageek.com/2026/07/games-industry-layoffs-forecast-2026/#:~:text=Its%20figures%20combine%20publicly%20confirmed%20cuts%2C%20nonpublic,current%20projection%20remains%20below%20the%202024%20total.). Pero tampoco están mejor los indies que no han cosigo debutar, y no han recuperado el tiempo de desarrollo, el 50% de los juegos de Steam ha ganado menos de 290$ (https://games-stats.com/blog/Steam_in_Q12026/). Vivimos un tiempo maravilloso en el que te puedes dedicar a lo que sea, pero eso no quiere decir que puedas vivir de ello\n\nRespuesta original (https://preview.org-social.org/?post=https%3A%2F%2Fjosemwarrior.github.io%2Fmicroblog%2Fsocial.org%232026-08-13T20%3A00%3A00%2B0200)",
       "date_published": "2026-08-13T18:00:00.000Z",
       "tags": [],
-      "language": "es"
+      "language": "es",
+      "content_html": "<p>Pues, pues... está todo mal jajaja. Especialmente el sector de las TIC y la industria AAA de los videojuegos han sufrido despidos masivos, que han ido in crescendo. En los ultimos 4 años se han despedido a unos <a href=\"https://godisageek.com/2026/07/games-industry-layoffs-forecast-2026/#:~:text=Its%20figures%20combine%20publicly%20confirmed%20cuts%2C%20nonpublic,current%20projection%20remains%20below%20the%202024%20total.\">~54.000 trabajadores</a>. Pero tampoco están mejor los indies que no han cosigo debutar, y no han recuperado el tiempo de desarrollo, <a href=\"https://games-stats.com/blog/Steam_in_Q12026/\">el 50% de los juegos de Steam ha ganado menos de 290$</a>. Vivimos un tiempo maravilloso en el que te puedes dedicar a lo que sea, pero eso no quiere decir que puedas vivir de ello\n\n<a href=\"https://preview.org-social.org/?post=https%3A%2F%2Fjosemwarrior.github.io%2Fmicroblog%2Fsocial.org%232026-08-13T20%3A00%3A00%2B0200\">Respuesta original</a></p>"
     },
     {
       "id": "https://josemwarrior.github.io/microblog/2026-08-13-bundle-de-itch-io-con-mas-de-100-juegos-por-solo-9-para-ayudar-a-la-ge/",
@@ -233,10 +245,11 @@
       "id": "https://josemwarrior.github.io/microblog/2026-08-11-respuesta-a-andros-sobre-satomi/",
       "url": "https://josemwarrior.github.io/microblog/2026-08-11-respuesta-a-andros-sobre-satomi/",
       "title": "Respuesta a andros sobre Satomi",
-      "content_text": "[andros](https://host.org-social.org/andros/social.org) Realmente me hice ya una [tool](https://github.com/josemwarrior/satomi-2000) para sindicar contenido, aparte de publicarlo en [mi microblog propio](https://josemwarrior.github.io/microblog/).\nLo reenvío a mis otras 5 rrss favoritas.\n\n[Respuesta original](https://preview.org-social.org/?post=https%3A%2F%2Fjosemwarrior.github.io%2Fmicroblog%2Fsocial.org%232026-08-11T12%3A32%3A00%2B0000)",
+      "content_text": "andros (https://host.org-social.org/andros/social.org) Realmente me hice ya una tool (https://github.com/josemwarrior/satomi-2000) para sindicar contenido, aparte de publicarlo en mi microblog propio (https://josemwarrior.github.io/microblog/).\nLo reenvío a mis otras 5 rrss favoritas.\n\nRespuesta original (https://preview.org-social.org/?post=https%3A%2F%2Fjosemwarrior.github.io%2Fmicroblog%2Fsocial.org%232026-08-11T12%3A32%3A00%2B0000)",
       "date_published": "2026-08-11T12:32:00.000Z",
       "tags": [],
       "language": "es",
+      "content_html": "<p><a href=\"https://host.org-social.org/andros/social.org\">andros</a> Realmente me hice ya una <a href=\"https://github.com/josemwarrior/satomi-2000\">tool</a> para sindicar contenido, aparte de publicarlo en <a href=\"https://josemwarrior.github.io/microblog/\">mi microblog propio</a>.\nLo reenvío a mis otras 5 rrss favoritas.\n\n<a href=\"https://preview.org-social.org/?post=https%3A%2F%2Fjosemwarrior.github.io%2Fmicroblog%2Fsocial.org%232026-08-11T12%3A32%3A00%2B0000\">Respuesta original</a></p>",
       "image": "https://i.imgur.com/zwil6qt.png"
     },
     {

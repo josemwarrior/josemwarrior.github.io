@@ -394,3 +394,11 @@ Terminada la ludum, me siento bastante satisfecho esta vez, he manejado mejor el
 :REPLY_TO: https://files.malenfant.net/public.php/dav/files/Ss6PFWMqysg37St#2026-10-23T15:23:10-0700
 :MOOD: ❤️
 :END:
+
+** 2026-11-07T15:37:35+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:END:
+
+No minusvalores aquello que te inspira. [[https://defold.com/2020/05/31/The-Defold-engine-code-style/][Defold es tan liviano y crea compilados tan óptimos]] simplemente porque sus creadores se sintieron inspirados al leer como [[https://www.gamedeveloper.com/design/gdc-i-god-of-war-i-how-the-left-and-right-brain-learned-to-love-one-another][los ingenieros de God of War crearon un ejecutable de 1,5 MB]]

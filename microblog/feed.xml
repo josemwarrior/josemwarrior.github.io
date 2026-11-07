@@ -6,6 +6,13 @@
     <description>Short notes, screenshots, and game development work in progress.</description>
     <language>es</language>
     <item>
+      <title>No minusvalores aquello que te inspira.</title>
+      <link>https://josemwarrior.github.io/microblog/2026-11-07-no-minusvalores-aquello-que-te-inspira/</link>
+      <guid isPermaLink="true">https://josemwarrior.github.io/microblog/2026-11-07-no-minusvalores-aquello-que-te-inspira/</guid>
+      <pubDate>Sat, 07 Nov 2026 15:37:35 GMT</pubDate>
+      <description>&lt;p&gt;No minusvalores aquello que te inspira. &lt;a href=&quot;https://defold.com/2020/05/31/The-Defold-engine-code-style/&quot;&gt;Defold es tan liviano y crea compilados tan óptimos&lt;/a&gt; simplemente porque sus creadores se sintieron inspirados al leer como &lt;a href=&quot;https://www.gamedeveloper.com/design/gdc-i-god-of-war-i-how-the-left-and-right-brain-learned-to-love-one-another&quot;&gt;los ingenieros de God of War crearon un ejecutable de 1,5 MB&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Terminada la ludum, me siento bastante satisfecho esta vez, he manejado</title>
       <link>https://josemwarrior.github.io/microblog/2026-10-19-cover/</link>
       <guid isPermaLink="true">https://josemwarrior.github.io/microblog/2026-10-19-cover/</guid>
@@ -17,7 +24,7 @@
       <link>https://josemwarrior.github.io/microblog/2026-10-17-2026-10-16-23-46-49/</link>
       <guid isPermaLink="true">https://josemwarrior.github.io/microblog/2026-10-17-2026-10-16-23-46-49/</guid>
       <pubDate>Sat, 17 Oct 2026 03:51:34 GMT</pubDate>
-      <description>&lt;p&gt;Desde los cavernícolas a los mechas, pasando por el lenguaje morse, he descartado varias ideas de &amp;apos;Old Tech&amp;apos;, hasta encontrar algo más interesante. No tiene mucho de &amp;apos;Tech&amp;apos;, pero es lo mejor que he encontrado como juego en todos los sentidos. &amp;apos;Mañana&amp;apos; empiezo con ganas #ld60&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://josemwarrior.github.io/assets/microblog/media/2026-10-16-23-46-49.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Desde los cavernícolas a los mechas, pasando por el lenguaje morse, he descartado varias ideas de &amp;#39;Old Tech&amp;#39;, hasta encontrar algo más interesante. No tiene mucho de &amp;#39;Tech&amp;#39;, pero es lo mejor que he encontrado como juego en todos los sentidos. &amp;#39;Mañana&amp;#39; empiezo con ganas #ld60&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://josemwarrior.github.io/assets/microblog/media/2026-10-16-23-46-49.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Quedan 9 días para la Ludumdare.</title>
@@ -45,7 +52,7 @@
       <link>https://josemwarrior.github.io/microblog/2026-09-07-lua-love2d/</link>
       <guid isPermaLink="true">https://josemwarrior.github.io/microblog/2026-09-07-lua-love2d/</guid>
       <pubDate>Mon, 07 Sep 2026 16:59:54 GMT</pubDate>
-      <description>&lt;p&gt;Maldita sea, no se para que me hablaron ayer del hot reload en Phaser.js, lo he probado con Lua y Love2D, y no hay vuelta atrás, es un life changer esto. Ver los cambios en directo sin tener que hacer un &amp;apos;run&amp;apos; del proyecto ❤️&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://josemwarrior.github.io/assets/microblog/media/lua-love2d.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Maldita sea, no se para que me hablaron ayer del hot reload en Phaser.js, lo he probado con Lua y Love2D, y no hay vuelta atrás, es un life changer esto. Ver los cambios en directo sin tener que hacer un &amp;#39;run&amp;#39; del proyecto ❤️&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://josemwarrior.github.io/assets/microblog/media/lua-love2d.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Igual doy un paso atrás de última hora, quizás lo inteligente sería usar</title>
@@ -84,7 +91,7 @@
 
 ![Imagen del port de drivers](https://i.imgur.com/Te7aQ3G.jpeg)
 
-[Respuesta original](https://preview.org-social.org/?post=https%3A%2F%2Fjosemwarrior.github.io%2Fmicroblog%2Fsocial.org%232026-08-21T17%3A36%3A29%2B0000)&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/Te7aQ3G.jpeg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;</description>
+&lt;a href=&quot;https://preview.org-social.org/?post=https%3A%2F%2Fjosemwarrior.github.io%2Fmicroblog%2Fsocial.org%232026-08-21T17%3A36%3A29%2B0000&quot;&gt;Respuesta original&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/Te7aQ3G.jpeg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gracias a la IA, han portado nativamente el emulador PCSX2 a arquitectur</title>
@@ -126,9 +133,9 @@
       <link>https://josemwarrior.github.io/microblog/2026-08-13-respuesta-a-andros-sobre-despidos/</link>
       <guid isPermaLink="true">https://josemwarrior.github.io/microblog/2026-08-13-respuesta-a-andros-sobre-despidos/</guid>
       <pubDate>Thu, 13 Aug 2026 18:00:00 GMT</pubDate>
-      <description>&lt;p&gt;Pues, pues... está todo mal jajaja. Especialmente el sector de las TIC y la industria AAA de los videojuegos han sufrido despidos masivos, que han ido in crescendo. En los ultimos 4 años se han despedido a unos [~54.000 trabajadores](https://godisageek.com/2026/07/games-industry-layoffs-forecast-2026/#:~:text=Its%20figures%20combine%20publicly%20confirmed%20cuts%2C%20nonpublic,current%20projection%20remains%20below%20the%202024%20total.). Pero tampoco están mejor los indies que no han cosigo debutar, y no han recuperado el tiempo de desarrollo, [el 50% de los juegos de Steam ha ganado menos de 290$](https://games-stats.com/blog/Steam_in_Q12026/). Vivimos un tiempo maravilloso en el que te puedes dedicar a lo que sea, pero eso no quiere decir que puedas vivir de ello
+      <description>&lt;p&gt;Pues, pues... está todo mal jajaja. Especialmente el sector de las TIC y la industria AAA de los videojuegos han sufrido despidos masivos, que han ido in crescendo. En los ultimos 4 años se han despedido a unos &lt;a href=&quot;https://godisageek.com/2026/07/games-industry-layoffs-forecast-2026/#:~:text=Its%20figures%20combine%20publicly%20confirmed%20cuts%2C%20nonpublic,current%20projection%20remains%20below%20the%202024%20total.&quot;&gt;~54.000 trabajadores&lt;/a&gt;. Pero tampoco están mejor los indies que no han cosigo debutar, y no han recuperado el tiempo de desarrollo, &lt;a href=&quot;https://games-stats.com/blog/Steam_in_Q12026/&quot;&gt;el 50% de los juegos de Steam ha ganado menos de 290$&lt;/a&gt;. Vivimos un tiempo maravilloso en el que te puedes dedicar a lo que sea, pero eso no quiere decir que puedas vivir de ello
 
-[Respuesta original](https://preview.org-social.org/?post=https%3A%2F%2Fjosemwarrior.github.io%2Fmicroblog%2Fsocial.org%232026-08-13T20%3A00%3A00%2B0200)&lt;/p&gt;</description>
+&lt;a href=&quot;https://preview.org-social.org/?post=https%3A%2F%2Fjosemwarrior.github.io%2Fmicroblog%2Fsocial.org%232026-08-13T20%3A00%3A00%2B0200&quot;&gt;Respuesta original&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bundle de itch.io con más de 100 juegos por solo 9€, para ayudar a la ge</title>
@@ -177,10 +184,10 @@
       <link>https://josemwarrior.github.io/microblog/2026-08-11-respuesta-a-andros-sobre-satomi/</link>
       <guid isPermaLink="true">https://josemwarrior.github.io/microblog/2026-08-11-respuesta-a-andros-sobre-satomi/</guid>
       <pubDate>Tue, 11 Aug 2026 12:32:00 GMT</pubDate>
-      <description>&lt;p&gt;[andros](https://host.org-social.org/andros/social.org) Realmente me hice ya una [tool](https://github.com/josemwarrior/satomi-2000) para sindicar contenido, aparte de publicarlo en [mi microblog propio](https://josemwarrior.github.io/microblog/).
+      <description>&lt;p&gt;&lt;a href=&quot;https://host.org-social.org/andros/social.org&quot;&gt;andros&lt;/a&gt; Realmente me hice ya una &lt;a href=&quot;https://github.com/josemwarrior/satomi-2000&quot;&gt;tool&lt;/a&gt; para sindicar contenido, aparte de publicarlo en &lt;a href=&quot;https://josemwarrior.github.io/microblog/&quot;&gt;mi microblog propio&lt;/a&gt;.
 Lo reenvío a mis otras 5 rrss favoritas.
 
-[Respuesta original](https://preview.org-social.org/?post=https%3A%2F%2Fjosemwarrior.github.io%2Fmicroblog%2Fsocial.org%232026-08-11T12%3A32%3A00%2B0000)&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/zwil6qt.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;</description>
+&lt;a href=&quot;https://preview.org-social.org/?post=https%3A%2F%2Fjosemwarrior.github.io%2Fmicroblog%2Fsocial.org%232026-08-11T12%3A32%3A00%2B0000&quot;&gt;Respuesta original&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/zwil6qt.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Estaría guay republicar mi contenido en un canal de Whatsapp, tiene bast</title>
@@ -215,7 +222,7 @@ Lo reenvío a mis otras 5 rrss favoritas.
       <link>https://josemwarrior.github.io/microblog/2026-08-10-no-quiero-salirme-de-ahi-aunque-defold-me-mira-con-ojillos-desde-la-esq/</link>
       <guid isPermaLink="true">https://josemwarrior.github.io/microblog/2026-08-10-no-quiero-salirme-de-ahi-aunque-defold-me-mira-con-ojillos-desde-la-esq/</guid>
       <pubDate>Sun, 09 Aug 2026 22:48:29 GMT</pubDate>
-      <description>&lt;p&gt;No quiero salirme de ahí (Aunque Defold me mira con ojillos desde la esquina). Quiero tener control total del juego. Es algo que vibecodeando pierdes, ganas mucha rapidez, prototipas rápido, pero pierdes control. Es por eso que renunciaré al &amp;apos;agentic programming&amp;apos; esta vez.&lt;/p&gt;</description>
+      <description>&lt;p&gt;No quiero salirme de ahí (Aunque Defold me mira con ojillos desde la esquina). Quiero tener control total del juego. Es algo que vibecodeando pierdes, ganas mucha rapidez, prototipas rápido, pero pierdes control. Es por eso que renunciaré al &amp;#39;agentic programming&amp;#39; esta vez.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Después de este miniparéntesis en el gamedev, voy a empezar un proyecto</title>
@@ -250,7 +257,7 @@ Lo reenvío a mis otras 5 rrss favoritas.
       <link>https://josemwarrior.github.io/microblog/2026-08-09-satomi/</link>
       <guid isPermaLink="true">https://josemwarrior.github.io/microblog/2026-08-09-satomi/</guid>
       <pubDate>Sun, 09 Aug 2026 18:52:05 GMT</pubDate>
-      <description>&lt;p&gt;He vibecodeado una tool para sindicar contenido por todas tus rrss. En Github estoy por decir &amp;apos;Que és&amp;apos; y &amp;apos;Como se usa&amp;apos;, ya los frontier models son mejores explicando que cualquier documentación (generada por IA) que pueda poner&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://josemwarrior.github.io/assets/microblog/media/satomi.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;He vibecodeado una tool para sindicar contenido por todas tus rrss. En Github estoy por decir &amp;#39;Que és&amp;#39; y &amp;#39;Como se usa&amp;#39;, ya los frontier models son mejores explicando que cualquier documentación (generada por IA) que pueda poner&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://josemwarrior.github.io/assets/microblog/media/satomi.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tengo ganas de jugar este experimento en Game Boy, Resident Evil: Gaiden</title>
