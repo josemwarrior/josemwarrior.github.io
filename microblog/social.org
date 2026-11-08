@@ -412,3 +412,13 @@ No minusvalores aquello que te inspira. [[https://defold.com/2020/05/31/The-Defo
 Desde hace unas semanas trato de cavilar sobre mi postura ante la IA, ¿es buena para hacer juegos o es mala? No tengo ninguna objeción moral con el uso de esta. Hasta ahora mi postura solo vacilaba por la imposibilidad de crear un buen juego si no puedes controlar todo, es decir, como con la IA no puedes controlarlo todo, no puedes hacer un buen juego. Pero los modelos de frontera actuales son muy buenos manejando grandes repositorios de código, incluso ¿mejor que yo? Hace poco me di cuenta de que llevar un ritmo lento haciendo el juego me permitía ver más cosas, creía que estar más en contacto con él me permitía ver más detalles. Pero creo que me estaba autosaboteando, darme cuenta de esas cosas, no dependía de escribir yo mismo el código (a fin de cuentas, Miyamoto no picaba el código él mismo y se daba cuenta de muchas cosas). Nada me impide parametrizar todo eso y darle el feel que yo quiera. 
 
 Antes la IA se quedaba enroscada cuando no podía solucionar algo, ahora es muy buena solucionando bugs y cosas, no he encontrado nada que no pueda resolver. Me estoy quedando sin argumentos para no usarla.
+
+** 2026-11-08T01:30:48+0000
+:PROPERTIES:
+:LANG: es
+:TAGS:
+:END:
+
+Salieron los resultados de la Ludum. Quedé el 9th puesto en innovación. En lineas generales ha sido mi compo mejor valorada. Teniendo en cuenta que bueno, los resultados son bastante random.
+
+[[https://josemwarrior.github.io/assets/microblog/media/innovation.png]]
