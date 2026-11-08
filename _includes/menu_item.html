@@ -6,6 +6,7 @@
     {%- else -%}
       {{ item.title }}
     {%- endif -%}
+    {%- if item.rss_url %} (<a href="{{ item.rss_url }}">rss</a>){%- endif -%}
     </li>
 
     {%-if item.post_list-%}

@@ -5,19 +5,17 @@ entries:
   - title: About
     url: about
 
-  - title: Games
+  - title: Games I've made
     url: games
+
+  - title: Games I've played
+    url: games-played
 
   - title: Microblog
     url: /microblog/
 
   - title: Artículos
+    rss_url: feed.xml
     post_list:
       limit: no
       show_more: false
-
-  - title: Privacy Policy
-    url: privacy
-
-  - title: rss
-    url: feed.xml
