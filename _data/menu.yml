@@ -15,7 +15,6 @@ entries:
     url: games-played
 
   - title: Artículos
-    rss_url: feed.xml
     post_list:
       limit: no
       show_more: false

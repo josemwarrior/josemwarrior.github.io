@@ -144,6 +144,34 @@ img {
   margin: 0 auto;
 }
 
+// -------------- GAMEDEV POST IMAGES -------------- //
+.gamedev-figure {
+  margin: 2rem auto;
+  max-width: 600px;
+
+  a {
+    display: block;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    max-height: 360px;
+    object-fit: contain;
+  }
+
+  figcaption {
+    margin-top: 0.6rem;
+    font-size: 0.85rem;
+    text-align: center;
+  }
+}
+
+// Keep the four complete magazine covers together in a single horizontal row.
+.gamedev-figure--magazines img {
+  max-height: none;
+}
+
 // -------------- HOME PROFILE -------------- //
 .home-profile {
   margin: 2rem 0;

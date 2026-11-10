@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Mis recursos favoritos sobre desarrollo de juegos"
+title: "Recursos sobre gamedev"
 date: 2026-06-05 08:33:01
 tags: []
 ---
 
 Es aburrido ver cómo todo el mundo recomienda los mismos libros una y otra vez. Estos son mis favoritos:
 
-![Portada de Game Project Completed]({{ '/assets/img/cover/game_project_completed.jpg' | relative_url }})
+Publicar es una habilidad. Se puede y se debe entrenar. Este libro repasa los puntos más importantes para no morir en el intento.
 
 ### Game Project Completed: How Successful Indie Game Developers Finish Their Projects (2014)
 
@@ -15,15 +15,11 @@ Es aburrido ver cómo todo el mundo recomienda los mismos libros una y otra vez.
 - **ISBN:** 978-14905554
 - **Páginas:** 114
 
-![Portada de Think Like a Game Designer]({{ '/assets/img/cover/think_like_game_designer.jpg' | relative_url }})
+![Portada de Game Project Completed]({{ '/assets/img/cover/game_project_completed.jpg' | relative_url }})
 
-### Think Like a Game Designer: The Step-by-Step Guide to Unlocking Your Creative Potential (2018)
 
-- **Autor:** Justin Gary
-- **ISBN:** 978-1947937390
-- **Páginas:** 230
 
-Mi vídeo favorito sobre diseño de juegos.
+Y mi vídeo favorito sobre diseño de juegos. Creo que repasa lo básico para un juego funcione, un juego puede tener otras muchas cosas, pero sin esto no funciona:
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 1rem;">
   <iframe src="https://www.youtube.com/embed/aC3c_pcWwIQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="Vídeo de YouTube"></iframe>
